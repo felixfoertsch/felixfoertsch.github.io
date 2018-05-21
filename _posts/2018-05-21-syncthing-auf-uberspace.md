@@ -17,7 +17,7 @@ excerpt_separator: <!-- more -->
 
 This short tutorial explains how to install [Syncthing](https://syncthing.net) on a [Uberspace](uberspace.de). It is based on the [Tutorial](https://maxhaesslein.de/dachboden/syncthing-auf-uberspace/) Max Haesslein. Thanks Max!
 
- Download and Install Newest Syncthing Version
+## Download and Install Newest Syncthing Version
 
 Connect to your uberspace
 ```
