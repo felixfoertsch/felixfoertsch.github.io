@@ -17,5 +17,8 @@
   {% endif %}
 
   {% include sidebar-icon-links.html %}
-  {% include copyright.html %}
+
+  {% if site.author.flair %}
+    <span class="site-flair">{{ site.author.flair }}</span>
+  {% endif %}
 </div>

@@ -4,10 +4,16 @@ title: About
 sidebar_link: true
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
-</p>
+## Hey There!
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+My name is Felix and I am a student of business administration and computer science. I work as a project manager and can help you, to make your ideas a reality.
+
+You can reach me easily by:
+- Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com)
+- Calling me on my phone: [+49 151 525 676 44](tel:+4915152567644)
+- Writing me a letter to:
+```
+Felix Förtsch
+Kurt-Eisner-Str. 55
+04275 Leipzig
+```

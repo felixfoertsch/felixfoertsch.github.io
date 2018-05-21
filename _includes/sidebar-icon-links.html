@@ -1,14 +1,9 @@
 <nav id="sidebar-icon-links">
-  {% if site.github.repo %}
+  {% if site.github.profile %}
     <a id="github-link"
-       class="icon" title="Github Project" aria-label="Github Project"
-       href="{{ site.github.repo }}">
+       class="icon" title="Github Profile" aria-label="Github Profile"
+       href="{{ site.github.profile }}">
       {% include svg/github.svg %}
-    </a>
-    <a id="github-download-link"
-       class="icon" title="Download" aria-label="Download"
-       href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">
-      {% include svg/download.svg %}
     </a>
   {% endif %}
 
@@ -37,15 +32,6 @@
        title="Tags" aria-label="Tags"
        href="{{ site.baseurl }}{{ tags_page.url }}">
       {% include svg/tags.svg %}
-    </a>
-  {% endif %}
-
-  {% if search_page %}
-    <a id="search-link"
-       class="icon{% if page.url == '/search' %} active{% endif %}"
-       title="Search" aria-label="Search"
-       href="{{ site.baseurl }}{{ search_page.url }}">
-      {% include svg/search.svg %}
     </a>
   {% endif %}
 
