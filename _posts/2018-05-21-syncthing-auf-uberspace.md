@@ -57,7 +57,7 @@ Add a subdomain to make your Syncthing easily accessible; also make sure it is p
 ```
 $ uberspace-add-domain -w -d sync.<DOMAIN>.de
 $ uberspace-letsencrypt
-$ letsencrypt certonly
+$ uberspace-letsencrypt-renew -f
 ```
 If you already use letsencrypt, you have to add the domain to your configuration. Just follow the steps displayed after the `uberspace-letsencrypt` Don't forget to add the subdomain to your domain registrar DNS records aswell, so it gets redirected correctly!
 
