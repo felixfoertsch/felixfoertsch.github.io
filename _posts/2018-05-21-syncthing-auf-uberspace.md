@@ -61,9 +61,9 @@ uberspace-add-domain -w -d sync.<DOMAIN>.de
 uberspace-letsencrypt
 uberspace-letsencrypt-renew -f
 ```
-If you already use letsencrypt, you have to add the domain to your configuration. Just follow the steps displayed after the `uberspace-letsencrypt` Don't forget to add the subdomain to your domain registrar DNS records aswell, so it gets redirected correctly!
+If you already use letsencrypt, you have to add the domain to your configuration. Just follow the steps displayed after the `uberspace-letsencrypt`. Don't forget to add the subdomain to your domain registrar DNS records aswell, so it gets redirected correctly!
 
-Now create the corresponding folder on the Uberspace:
+Now, create the corresponding folder on the Uberspace:
 ```
 mkdir /var/www/virtual/<UBERSPACE>/sync.<DOMAIN>.de
 ```
@@ -88,7 +88,7 @@ cd ~/.config/syncthing
 vim config.xml
 ```
 
-Find the GUI entry and replace the port with <PORT1>:
+Find the GUI entry and replace the port with `<PORT1>`:
 ```
 ...
 <gui enabled="true" tls="false" debugging="false">
@@ -96,7 +96,7 @@ Find the GUI entry and replace the port with <PORT1>:
 ...
 ```
 
-Find the options entry and replace the port with <PORT2>:
+Find the options entry and replace the port with `<PORT2>`:
 ```
 ...
 <options>
@@ -111,7 +111,7 @@ Find the options entry and replace the port with <PORT2>:
 
 If you don't have any services running, you have to setup the Daemon Tools first: [Uberspace Wiki, Daemon Tools](https://wiki.uberspace.de/system:daemontools).
 
-After setting up the services, you can add Syncthing as a Service and restart it once:
+After setting up the services, you can add Syncthing as a service and restart it once:
 ```
 uberspace-setup-service syncthing ~/bin/syncthing
 svc -du ~/services/syncthing
@@ -133,4 +133,4 @@ And now enter your admin user and password in the corresponding fields:
 
 ## The end
 
-That's it! You now have a Syncthing service running on Uberspace! Ideal for private documents you don't want the NSA to have.
+Save and that's it! You now have a Syncthing service running on Uberspace! Ideal for private documents you don't want the NSA to have.
