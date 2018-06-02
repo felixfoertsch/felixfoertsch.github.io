@@ -15,26 +15,20 @@ last_modified_at: 2018-06-2
 excerpt_separator: <!-- more -->
 ---
 
-This short tutorial explains how to install [Syncthing](https://syncthing.net) on a [Uberspace](uberspace.de). It is based on the [~~Tutorial~~](https://maxhaesslein.de/dachboden/syncthing-auf-uberspace/) from [Max Haesslein](http://maxhaesslein.blog). Thanks Max!
+This short tutorial explains how to install [Mailtrain](https://mailtrain.org) on a [Uberspace](uberspace.de).
 <!-- more -->
 
-## Download newest Syncthing version
+## Download Newest Mailtrain Version
 
 Connect to your uberspace:
 ```
 ssh <user>@<uberspace>
 ```
 
-Download the [newest Syncthing version](https://github.com/syncthing/syncthing/releases/latest) for Linux:
+Clone the newest Mailtrain version:
 ```
 cd ~/etc/  
-wget <NEWEST AMD64 LINUX VERSION>
-```
-
-Extract the file (eXtract Ze Files!) and move it to its own folder:
-```
-tar -xzf <FILENAME>
-mv <FOLDERNAME> syncthing/
+git clone git://github.com/Mailtrain-org/mailtrain.git
 ```
 
 Link it to your binaries folder and start it once:
@@ -45,7 +39,7 @@ syncthing
 Close the program with CTRL-C.
 
 
-## Prepare your Uberspace
+## Prepare Uberspace
 
 Get the ports we are going to use for GUI and sync:
 ```
@@ -80,7 +74,7 @@ RewriteRule (.*) http://localhost:<PORT1>/$1 [P]
 ```
 
 
-## Modify the Syncthing config file
+## Modify the Syncthing Config File
 
 Open the syncthing config file:
 ```
@@ -107,7 +101,7 @@ Find the options entry and replace the port with <PORT2>:
 ```
 
 
-## Setup Syncthing as a service
+## Setup Syncthing as a Service
 
 If you don't have any services running, you have to setup the Daemon Tools first: [Uberspace Wiki, Daemon Tools](https://wiki.uberspace.de/system:daemontools).
 
@@ -118,7 +112,7 @@ svc -du ~/services/syncthing
 ```
 
 
-## Secure your Syncthing instance
+## Secure your Syncthing Instance
 
 Your Syncthing is now available via `sync.<DOMAIN>.de`. However, it is accessible by everyone on the web. Therefore you should secure it. Got to the Syncthing Settings:
 ![You can access your settings via Actions -> Settings](/img/20180602-Syncthing-settings.png)
@@ -131,6 +125,6 @@ And now enter your admin user and password in the corresponding fields:
 
 
 
-## The end
+## The End
 
 That's it! You now have a Syncthing service running on Uberspace! Ideal for private documents you don't want the NSA to have.
