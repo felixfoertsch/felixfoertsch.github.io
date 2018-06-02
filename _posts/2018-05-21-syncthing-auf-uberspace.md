@@ -11,11 +11,12 @@ tags:
   - self-hosted
   - tutorial
 
-last_modified_at: 2018-05-21
+last_modified_at: 2018-06-2
 excerpt_separator: <!-- more -->
 ---
 
 This short tutorial explains how to install [Syncthing](https://syncthing.net) on a [Uberspace](uberspace.de). It is based on the [~~Tutorial~~](https://maxhaesslein.de/dachboden/syncthing-auf-uberspace/) from [Max Haesslein](http://maxhaesslein.blog). Thanks Max!
+<!-- more -->
 
 ## Download and Install Newest Syncthing Version
 
@@ -42,6 +43,7 @@ $ ln -s ~/etc/syncthing/syncthing ~/bin/syncthing
 $ syncthing
 ```
 Close the program with CTRL-C.
+
 
 ## Prepare Uberspace
 
@@ -77,6 +79,7 @@ RewriteEngine On
 RewriteRule (.*) http://localhost:<PORT1>/$1 [P]
 ```
 
+
 ## Modify the Syncthing Config File
 
 Open the syncthing config file:
@@ -103,8 +106,10 @@ Find the options entry and replace the port with <PORT2>:
 ...
 ```
 
+
 ## Setup Syncthing as a Service
-If you don't have any services running, you have to setup the Daemon Tools first: [Uberspace Wiki, Daemon Tools](https://wiki.uberspace.de/system:daemontools)
+
+If you don't have any services running, you have to setup the Daemon Tools first: [Uberspace Wiki, Daemon Tools](https://wiki.uberspace.de/system:daemontools).
 
 After setting up the services, you can add Syncthing as a Service and restart it once:
 ```
@@ -112,4 +117,20 @@ $ uberspace-setup-service syncthing ~/bin/syncthing
 $ svc -du ~/services/syncthing
 ```
 
-That's it! You now have a Syncthing service running on Uberspace! Ideal for private documents you don't want to have the NSA to have.
+
+## Secure your Syncthing Instance
+
+Your Syncthing is now available via `sync.<DOMAIN>.de`. However, it is accessible by everyone on the web. Therefore you should secure it. Got to the Syncthing Settings:
+![You can access your settings via Actions -> Settings](/img/20180602-Syncthing-settings.png)
+
+**IMPORTANT: Do not check `Use HTTPS for GUI` you will lose access to your GUI. To get it back you have to find the TLS option in your Syncthing config and set it to `false` again. You connections will have TLS and will be secure without checking this box.**
+
+And now enter your admin user and password in the corresponding fields:
+![You can access your settings via Actions -> Settings](/img/20180602-Syncthing-settings2.png)
+
+
+
+
+## The End
+
+That's it! You now have a Syncthing service running on Uberspace! Ideal for private documents you don't want the NSA to have.
