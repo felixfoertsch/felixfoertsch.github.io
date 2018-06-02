@@ -24,16 +24,16 @@ Connect to your uberspace:
 $ ssh <user>@<uberspace>
 ```
 
-Download the [newest Syncthing version](https://github.com/syncthing/syncthing/releases/latest):
+Download the [newest Syncthing version](https://github.com/syncthing/syncthing/releases/latest) for Linux:
 ```
 $ cd ~/etc/  
-$ wget <NEWEST AMD64 VERSION>
+$ wget <NEWEST AMD64 LINUX VERSION>
 ```
 
 Extract the file (eXtract Ze Files!) and move it to its own folder:
 ```
 $ tar -xzf <FILENAME>
-$ mv <FILENAME> syncthing/
+$ mv <FOLDERNAME> syncthing/
 ```
 
 Link it to your binaries folder and start it once:
@@ -41,7 +41,7 @@ Link it to your binaries folder and start it once:
 $ ln -s ~/etc/syncthing/syncthing ~/bin/syncthing
 $ syncthing
 ```
-Close the program with CTRL-C
+Close the program with CTRL-C.
 
 ## Prepare Uberspace
 
@@ -55,11 +55,11 @@ $ uberspace-add-port -p both --firewall
 
 Add a subdomain to make your Syncthing easily accessible; also make sure it is possible to connect through HTTPS:
 ```
-$ uberspace-add-domain sync.<DOMAIN>.de
+$ uberspace-add-domain -w -d sync.<DOMAIN>.de
 $ uberspace-letsencrypt
 $ letsencrypt certonly
 ```
-Don't forget to add the subdomain to your domain registrar DNS records aswell, so it gets redirected correctly!
+If you already use letsencrypt, you have to add the domain to your configuration. Just follow the steps displayed after the `uberspace-letsencrypt` Don't forget to add the subdomain to your domain registrar DNS records aswell, so it gets redirected correctly!
 
 Now create the corresponding folder on the Uberspace:
 ```
@@ -68,7 +68,8 @@ $ mkdir /var/www/virtual/<UBERSPACE>/sync.<DOMAIN>.de
 
 Edit the `.htaccess` so it sends you to the correct port:
 ```
-$ vim /var/www/virtual/<UBERSPACE>/sync.<DOMAIN>.de/.htaccess
+$ cd /var/www/virtual/<UBERSPACE>/sync.<DOMAIN>.de/
+$ vim .htaccess
 ```
 
 ```
@@ -77,6 +78,12 @@ RewriteRule (.*) http://localhost:<PORT1>/$1 [P]
 ```
 
 ## Modify the Syncthing Config File
+
+Open the syncthing config file:
+```
+$ cd ~/.config/syncthing
+$ vim config.xml
+```
 
 Find the GUI entry and replace the port with <PORT1>:
 ```
@@ -99,10 +106,10 @@ Find the options entry and replace the port with <PORT2>:
 ## Setup Syncthing as a Service
 If you don't have any services running, you have to setup the Daemon Tools first: [Uberspace Wiki, Daemon Tools](https://wiki.uberspace.de/system:daemontools)
 
-After setting up the services, you can add Syncthing as a Service and start it:
+After setting up the services, you can add Syncthing as a Service and restart it once:
 ```
 $ uberspace-setup-service syncthing ~/bin/syncthing
-$ svc -u ~/services/synthing
+$ svc -du ~/services/syncthing
 ```
 
 That's it! You now have a Syncthing service running on Uberspace! Ideal for private documents you don't want to have the NSA to have.
