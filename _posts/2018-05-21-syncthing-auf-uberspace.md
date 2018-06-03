@@ -5,11 +5,11 @@ categories:
   - Tutorials
 tags:
   - english
-  - syncthing
-  - sync
+  - tutorial
   - software
   - self-hosted
-  - tutorial
+  - syncthing
+  - sync
 
 last_modified_at: 2018-06-3
 excerpt_separator: <!-- more -->
