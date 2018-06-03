@@ -22,3 +22,9 @@ You can also check out my public [Pinboard](https://pinboard.in)-Account for mor
 - [Matomao](https://matomo.org): Analtics software to avoid Google.
 - [Redmine](http://redmine.org): Amazing project management solution.
 - [Syncthing](http://syncthing.net): File synchronisation alternative.
+
+
+## Software
+
+### Affinity Designer, Affinity Photo (macOS)
+[Affinity](https://affinity.serif.com/) produces competitors to the popular Adobe Photoshop and Illustrator: [Affinity Designer](https://affinity.serif.com/en-gb/designer/) and [Affinity Photo](https://affinity.serif.com/en-gb/photo/) (you can also buy them directly from the App Store). These two programs are *exceptional*. You can do basically everything you can do with their Adobe pendants, but they only cost 55 EUR each. No subscriptions, no recurring fees. The interface is polished and if you are an Adobe user you will be right at home. Quit Adobe today. Don't let them milk you.
