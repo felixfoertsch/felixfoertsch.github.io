@@ -6,6 +6,8 @@ sidebar_link: true
 
 This page is a collection of tips and tricks about things I have learned and found in the past. Since I am living in Germany, some of the tips may not be useful for everyone.
 
+You can also check out my public [Pinboard](https://pinboard.in)-Account for more interesting stuff: [u:felixfoertsch](https://pinboard.in/u:felixfoertsch)
+
 ## Services on the internet
 
 ### Tecspace
