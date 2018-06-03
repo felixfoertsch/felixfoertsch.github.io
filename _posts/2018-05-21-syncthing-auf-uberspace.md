@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Install Syncthing on Uberspace 6 on a Subdomain"
+title: "Install Syncthing on Uberspace 6 on a subdomain"
 categories:
   - Tutorials
 tags:
@@ -11,7 +11,7 @@ tags:
   - self-hosted
   - tutorial
 
-last_modified_at: 2018-06-2
+last_modified_at: 2018-06-3
 excerpt_separator: <!-- more -->
 ---
 
@@ -61,7 +61,7 @@ uberspace-add-domain -w -d sync.<DOMAIN>.de
 uberspace-letsencrypt
 uberspace-letsencrypt-renew -f
 ```
-If you already use letsencrypt, you have to add the domain to your configuration. Just follow the steps displayed after the `uberspace-letsencrypt`. Don't forget to add the subdomain to your domain registrar DNS records aswell, so it gets redirected correctly!
+If you already use LetsEncrypt, you have to add the domain to your configuration. Just follow the steps displayed after the `uberspace-letsencrypt`. Don't forget to add the subdomain to your domain registrar DNS records aswell, so it gets redirected correctly!
 
 Now, create the corresponding folder on the Uberspace:
 ```
