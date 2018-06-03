@@ -10,7 +10,7 @@ tags:
   - projekt-management
   - philosophie
 
-last_modified_at: 2018-06-3
+last_modified_at:
 excerpt_separator: <!-- more -->
 ---
 
