@@ -11,11 +11,11 @@ tags:
   - syncthing
   - sync
 
-last_modified_at: 2018-06-3
+last_modified_at: 2018-07-3
 excerpt_separator: <!-- more -->
 ---
 
-This short tutorial explains how to install [Syncthing](https://syncthing.net) on a [Uberspace](uberspace.de). It is based on the [~~Tutorial~~](https://maxhaesslein.de/dachboden/syncthing-auf-uberspace/) from [Max Haesslein](http://maxhaesslein.blog). Thanks Max!
+This short tutorial explains how to install [Syncthing](https://syncthing.net) on a [Uberspace](https://uberspace.de). It is based on the [~~Tutorial~~](https://maxhaesslein.de/dachboden/syncthing-auf-uberspace/) from [Max Haesslein](http://maxhaesslein.blog). Thanks Max!
 <!-- more -->
 
 ## Download newest Syncthing version
