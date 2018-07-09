@@ -19,3 +19,10 @@ Felix Förtsch
 Kurt-Eisner-Str. 55
 04275 Leipzig
 ```
+
+## Quotes
+
+Like everyone else, I stumbled upon quotes from famous persons, that stuck with me. Here are a few of them:
+
+- Der Deutsche soll alle Sprachen lernen, damit ihm zu Hause kein Fremder unbequem, er aber in der Fremde überall zu Hause ist. ~ [Johann Wolfgang von Goethe](https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe)
+- [Life is scary. Get used to it. There are no magical fixes. It is all up to you. Go out and start doing the work. Nothing in this world that's worth having comes easy.](https://www.youtube.com/watch?v=89xUz9fZBXA) ~ Bob Kelso
