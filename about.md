@@ -11,7 +11,7 @@ My name is Felix and I am a student of business administration and computer scie
 You can reach me easily by:
 - Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com)
 - Calling me on my phone: [+49 151 525 676 44](tel:+4915152567644)
-- Connect with me on [Telegram](https://telegram.org): [@felixfoertsch](http://telegram.me/felixfoertsch)
+- Connecting with me on [Telegram](https://telegram.org): [@felixfoertsch](http://telegram.me/felixfoertsch)
 - Writing me a letter to:
 ```
 Felix Förtsch
