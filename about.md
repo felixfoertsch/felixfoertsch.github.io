@@ -6,7 +6,7 @@ sidebar_link: true
 
 ## [Hello There](https://reddit.com/r/PrequelMemes/)!
 
-My name is Felix and I am a student of business administration and computer science. I work as a project manager and can help you, to make your ideas a reality.
+My name is Felix. I have a MSc in Business Administration and I am currently  studying a BSc in Computer Science. I work as a project manager and can help you, to make your ideas a reality.
 
 You can reach me easily by:
 - Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com)
@@ -18,6 +18,8 @@ Felix Förtsch
 Kurt-Eisner-Str. 55
 04275 Leipzig
 ```
+
+If you are interested in coding, you can checkout my [GitHub Profile](https://github.com/felixfoertsch).
 
 ## Quotes
 
