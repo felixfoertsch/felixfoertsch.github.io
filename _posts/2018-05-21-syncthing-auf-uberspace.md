@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Install Syncthing on Uberspace 6 on a subdomain"
+title: "Install Syncthing on Uberspace 6 on a Subdomain"
 categories:
   - Tutorials
 tags:
@@ -11,7 +11,7 @@ tags:
   - syncthing
   - sync
 
-last_modified_at: 2018-07-3
+last_modified_at: 2018-07-03
 excerpt_separator: <!-- more -->
 ---
 
