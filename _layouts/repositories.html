@@ -8,8 +8,8 @@ layout: default
 <div class="content">
   {{ content }}
   <div class="mx-auto">
-    {% for repository in site.github.public_repositories limit: 6 %}
-      {% if repository.stargazers_count > 1 %}
+    {% for repository in site.github.public_repositories limit: 100 %}
+      {% if repository.stargazers_count > 0 %}
       <div class="">
         {% include repo-card.html %}
       </div>
