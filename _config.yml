@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            ff.de
 tagline:          'I do project management with focus on technology.'
-description:      'I do project management with focus on technology.'
+description:      ''
 url:              https://felixfoertsch.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
