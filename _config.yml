@@ -16,7 +16,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
 author:
   name:           'Felix Förtsch'
   url:            felixfoertsch.de
-  flair:          'Living and working in Leipzig, Germany.'
+  flair:          ''
 
 paginate:         5
 # paginate_path:    '/page:num'

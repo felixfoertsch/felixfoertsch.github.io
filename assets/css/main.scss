@@ -3,4 +3,14 @@
 # only main files contain this front matter, not partials.
 ---
 
+$sidebar-bg-color: #181A1F !default;
+$sidebar-fg-color: #D2D6DB !default;
+$link-color: #61AFEF !default;
+$sidebar-width: 11rem !default;
+
+$root-font-family: "Fira Sans", "Helvetica Neue", Arial, sans-serif !default;
+$root-font-size: 1rem !default;
+$root-line-height: 1.3 !default;
+$code-font-family: "Fira Mono", Menlo, Monaco, "Courier New", monospace !default;
+
 @import "hydeout";
