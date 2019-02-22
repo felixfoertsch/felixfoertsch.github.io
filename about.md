@@ -13,7 +13,7 @@ Since I am a big [Apple](https://apple.com) fan, I am currently learning [Swift]
 # Contact
 
 You can reach me easily by:
-- Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com)
+- Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com) ([PGP Key](https://gist.github.com/felixfoertsch/e6f143ce5acd323e0043801f51e96223))
 - Calling me on my phone: [+49 151 525 676 44](tel:+4915152567644)
 - Connecting with me on [Telegram](https://telegram.org): [@felixfoertsch](http://telegram.me/felixfoertsch)
 - Sending me a direct message on [Twitter](https://twitter.com/): [@felixfoertsch](https://twitter.com/felixfoertsch)

@@ -16,6 +16,8 @@ This is a text I found on the internet and saved it. If anybody knows the source
 
 <!-- more -->
 
+# Blackhole
+
 Imagine, just for a moment, that you are aboard a spaceship equipped with a magical engine capable of accelerating you to any arbitrarily high velocity. This is absolutely and utterly impossible, but it turns out it'll be okay, for reasons you'll see in a second.
 
 Because you know your engine can push you faster than the speed of light, you have no fear of black holes. In the interest of scientific curiosity, you allow yourself to fall through the event horizon of one. And not just any black hole, but rather a carefully chosen one, one sufficiently massive that its event horizon lies quite far from its center. This is so you'll have plenty of time between crossing the event horizon and approaching the region of insane gravitational gradient near the center to make your observations and escape again.
