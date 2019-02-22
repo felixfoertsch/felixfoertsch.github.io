@@ -10,12 +10,15 @@ My name is Felix. I have a master's degree in Business Administration and I am c
 
 Since I am a big [Apple](https://apple.com) fan, I am currently learning [Swift](https://swift.org), Apples programming language for macOS, iOS, watchOS and tvOS, to build awesome apps.
 
-# Current goals
+# Current Goals
 
-Public commitments are the most motivating. At the moment I am chasing the following goals:
-- Finish my bachelor's degree. _Measurement_: University certificate.
-- Become a proficient Swift developer. _Measurement_: Deploy one app to the macOS and one app to the iOS App Store.
-- Publish as much knowledge as I can on my website. _Measurement_: Publish one useful article every month.
+Public commitments are the most motivating. At the moment I am chasing the following goals. If you would like to help me reach them, check in on me and poke me about them:
+- Finish my bachelor's degree.
+  - _Indicator_: University certificate.
+- Become a proficient Swift developer.
+  - _Indicator_: Deploy one app to each App Store (macOS/iOS).
+- Publish as much knowledge as I can on my website.
+  - _Indicator_: Publish one useful article every month.
 
 # Contact
 
