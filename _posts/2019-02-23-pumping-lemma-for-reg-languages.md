@@ -67,7 +67,7 @@ To pull in the negation on the right side of this transformation, all the quanti
 
 `∀n ∈ ℕ ∃x ∈ L: |x| ≥ n ∀u, v, w: x = u ∘ v ∘ w, |v| ≥ 1, |uv| ≤ n ∃i ∈ ℕ: u ∘ vⁱ ∘ w ∉ L → L ∉ REG`
 
-Again, this is still the Pumping Lemma. We didn't change it, we just used an transformation for the implication that is equivalent. If you meet the conditions on the left, you **know** the sentence on the right is true. Also, if you can show that a condition is not 
+Again, this is still the Pumping Lemma. We didn't change it, we just used an transformation for the implication that is equivalent. If you meet the conditions on the left, you **know** the sentence on the right is true.
 
 Let's use this on an example: Show that `L = {aᵏ ∘ bᵏ | k ≥ 0}` is not regular.
 
