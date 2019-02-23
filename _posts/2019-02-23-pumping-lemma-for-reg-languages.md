@@ -77,7 +77,7 @@ Let's use this on an example: Show that `L = {aᵏ ∘ bᵏ | k ≥ 0}` is not r
 4. Pick an `i` that shows that `u ∘ vⁱ ∘ w ∉ L`. Let's take `i = 0`.
     - Since our word is `aⁿbⁿ` and one of the conditions is `|uv| ≤ n`, we know that `uv` can **only** consist of the letter `a`.
     - And because we have the condition `|v| ≥ 1`, we also know that `v` has to contain **at least** one letter `a`.
-    - If we know remove this letter (or maybe its more than one letter, it doesn't matter), the amount of letters a in the word `x` is now not equal to the amount of letters b in the word.
+    - If we now remove this letter (or maybe its more than one letter, it doesn't matter), the amount of letters `a` in the word `x` is now not equal to the amount of letters `b` in the word.
     - Hence: Our word is not part of the language any more (`u ∘ v⁰ ∘ w ∉ L`), violating the PL.
 
 This shows that `L = {aᵏ ∘ bᵏ | k ≥ 0}` is not a regular language.
