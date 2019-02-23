@@ -2,7 +2,7 @@
 layout: post
 title: "iPad Gestures"
 categories:
-  - Tips
+  - Tip
 tags:
   - english
   - tips

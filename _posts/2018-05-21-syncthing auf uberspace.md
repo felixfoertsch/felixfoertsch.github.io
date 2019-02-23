@@ -5,10 +5,8 @@ categories:
   - Tutorials
 tags:
   - english
-  - tutorial
   - software
   - self-hosted
-  - syncthing
   - sync
 
 last_modified_at: 2018-07-03

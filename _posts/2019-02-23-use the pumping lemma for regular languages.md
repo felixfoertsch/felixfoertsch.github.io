@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Pumping Lemma for Regular Languages"
+title: "Use the Pumping Lemma for Regular Languages"
 categories:
-  - Computer Science
+  - Tutorials
 tags:
   - proof
-  - explanation
   - automata and languages
   - computer science
 
@@ -39,7 +38,7 @@ Firstly, we have to keep in mind that we want to show that a language is not reg
 - This repeating of the loop is referred to as pumping a word up or down.
 
 
-## 2. Doing a proof
+## 2. Doing a proof.
 Now, secondly, you want to proof something using this lemma. Let's start with the PL (really try to understand this line!):
 
 `L ∈ REG → ∃n ∈ ℕ ∀x ∈ L: |x| ≥ n ∃u, v, w: x = u ∘ v ∘ w, |v| ≥ 1, |uv| ≤ n ∀i ∈ ℕ: u ∘ vⁱ ∘ w ∈ L`

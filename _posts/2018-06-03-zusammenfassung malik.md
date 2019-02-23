@@ -7,7 +7,7 @@ tags:
   - deutsch
   - zusammenfassung
   - buch
-  - projekt-management
+  - projektmanagement
   - philosophie
 
 last_modified_at:
