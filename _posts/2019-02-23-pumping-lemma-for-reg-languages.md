@@ -69,7 +69,7 @@ To pull in the negation on the right side of this transformation, all the quanti
 
 Again, this is still the Pumping Lemma. We didn't change it, we just used an transformation for the implication that is equivalent. If you meet the conditions on the left, you **know** the sentence on the right is true. Also, if you can show that a condition is not 
 
-Let's use this on an example: Show that `L = {a^k ∘ b^k | k ≥ 0}` is not regular.
+Let's use this on an example: Show that `L = {aᵏ ∘ bᵏ | k ≥ 0}` is not regular.
 
 1. Take any number `n`.
 2. Select a word with the requirement `x ∈ L` with `|x| ≥ n`. Your mathematical creativity is requested here! You need to pick a word that helps you show the rest of the conditions easily! We are going to pick: `x = aⁿbⁿ`. This is convenient, because it's obvious that it is longer than `n` (it has `n` in it two times as exponent).
@@ -80,4 +80,4 @@ Let's use this on an example: Show that `L = {a^k ∘ b^k | k ≥ 0}` is not reg
     - If we know remove this letter (or maybe its more than one letter, it doesn't matter), the amount of letters a in the word `x` is now not equal to the amount of letters b in the word.
     - Hence: Our word is not part of the language any more (`u ∘ v⁰ ∘ w ∉ L`), violating the PL.
 
-This shows that `L = {a^k ∘ b^k | k ≥ 0}` is not a regular language.
+This shows that `L = {aᵏ ∘ bᵏ | k ≥ 0}` is not a regular language.
