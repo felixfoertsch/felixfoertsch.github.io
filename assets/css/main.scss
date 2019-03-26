@@ -3,15 +3,21 @@
 # only main files contain this front matter, not partials.
 ---
 
-$sidebar-bg-color: #181A1F !default;
-$sidebar-fg-color: #D2D6DB !default;
-$link-color: #61AFEF !default;
-$sidebar-width: 11rem !default;
+$sidebar-sticky: false !default;
 
-$root-font-family: "Fira Sans", "Helvetica Neue", Arial, sans-serif !default;
+$body-bg: #eeeeee !default;
+$sidebar-bg-color: #eeeeee !default;
+$link-color: #268bd2 !default;
+$body-color: #000000 !default;
+$sidebar-fg-color: #000000 !default;
+
+$sidebar-width: 11rem !default;
 $root-font-size: 1rem !default;
 $root-line-height: 1.3 !default;
 $large-font-size: 1.3rem !default;
-$code-font-family: "Fira Mono", Menlo, Monaco, "Courier New", monospace !default;
+
+$root-font-family: "Source Serif Pro", serif !default;
+$code-font-family: "Fira Mono", monospace !default;
+$heading-font-family: "Fira Sans", sans-serif !default;
 
 @import "hydeout";
