@@ -8,7 +8,7 @@ tags:
   - automata and languages
   - computer science
 
-last_modified_at: 2019-03-09
+last_modified_at: 2019-04-04
 excerpt_separator: <!-- more -->
 ---
 
@@ -29,10 +29,10 @@ To understand the PL, we think about it in two steps. I'll do it for the regular
 
 Firstly, we have to keep in mind that we want to show that a language is not regular. Let's reason a little bit more about regular languages:
 
-- Regular languages can be accepted by finite automata (FA). That means: if your language is regular, there is a FA that accepts this language.
-- To check, whether a word is accepted by a FA, you start in a state, start reading in letters of your word and follow the edges through the FA. If the whole word is read and we end up in a final state, the FA accepts the word.
+- Regular languages can be accepted by finite automata (FA). That means: if your language is regular, there is an FA that accepts this language.
+- To check, whether a word is accepted by an FA, you start in a state, start reading in letters of your word and follow the edges through the FA. If the whole word is read and we end up in a final state, the FA accepts the word.
 - But hold on a second! FA can also accept words that have more letters than we have states and edges. How can that be?! The answer: loops.
-- Now, given any regular language, we **know** that there is a FA that accepts it (this is a theorem).
+- Now, given any regular language, we **know** that there is an FA that accepts it (this is a theorem).
 - That means: if we have a word, that has more letters than we have states, but is still accepted by our FA, we **have to have** a loop in our FA.
 - Think about it: we can repeat this loop as many times as we want and the FA would still accept words that are processed by going through the loop repeatedly. **It has to!**
 - This repeating of the loop is referred to as pumping a word up or down.
