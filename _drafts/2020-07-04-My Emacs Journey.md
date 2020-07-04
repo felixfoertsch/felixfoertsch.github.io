@@ -12,3 +12,5 @@ excerpt_separator: <!-- more -->
 
 Emacs is a journey. [^1]
 [^1]: https://github.com/d12frosted/homebrew-emacs-plus
+
+If you are studying computer science, you have probably heard of text editors and maybe even about the editor wars. There is a myriad of te
