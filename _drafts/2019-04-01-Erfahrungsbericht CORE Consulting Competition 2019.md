@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Erfahrungsbericht: CORE Consulting Competition 2019"
+title: "Erfahrungsbericht CORE Consulting Competition 2019"
 categories:
   - CCC19
 tags:

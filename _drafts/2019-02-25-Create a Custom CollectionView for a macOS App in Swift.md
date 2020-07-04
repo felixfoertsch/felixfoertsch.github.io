@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create a Custom CollectionView for a macOS app in Swift"
+title: "Create a Custom CollectionView for a macOS App in Swift"
 categories:
   - Tutorials
 tags:
@@ -8,7 +8,7 @@ tags:
   - coding
   - macOS
 
-last_modified_at:
+last_modified_at: 
 excerpt_separator: <!-- more -->
 ---
 

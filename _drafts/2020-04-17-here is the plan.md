@@ -4,7 +4,7 @@ title: "Here is the Plan"
 categories:
   - Personal
 tags:
-  - english
+  - English
 
 last_modified_at: 
 excerpt_separator: <!-- more -->

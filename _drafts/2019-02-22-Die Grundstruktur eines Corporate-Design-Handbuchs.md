@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Die Grundstruktur eines Corporate-Design-Handbuchs"
+categories:
+  - Personal
+tags:
+  - English
+
+last_modified_at: 
+excerpt_separator: <!-- more -->
+---
 - Titelseite
 - Impressum
 - Lizenz

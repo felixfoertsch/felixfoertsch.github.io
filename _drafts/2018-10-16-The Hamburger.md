@@ -1,3 +1,14 @@
+---
+layout: post
+title: "The Hamburger"
+categories:
+  - Personal
+tags:
+  - English
+
+last_modified_at: 
+excerpt_separator: <!-- more -->
+---
 Sentence 1: State the problem
 
 Sentence 2: State the consequences of the problem

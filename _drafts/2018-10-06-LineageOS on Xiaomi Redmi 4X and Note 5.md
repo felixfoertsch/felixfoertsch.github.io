@@ -1,3 +1,14 @@
+---
+layout: post
+title: "LineageOS on Xiaomi Redmi 4X and Note 5"
+categories:
+  - Personal
+tags:
+  - English
+
+last_modified_at: 
+excerpt_separator: <!-- more -->
+---
 1. Unlock Bootloader: http://en.miui.com/unlock/
     1. Apply
     2. Wait

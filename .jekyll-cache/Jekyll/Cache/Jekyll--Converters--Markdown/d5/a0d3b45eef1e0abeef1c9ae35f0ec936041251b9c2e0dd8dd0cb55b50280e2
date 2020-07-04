@@ -1,0 +1,100 @@
+I"=<p>This short tutorial explains how to install <a href="https://syncthing.net">Syncthing</a> on a <a href="https://uberspace.de">Uberspace</a>. It is based on the <a href="https://maxhaesslein.de/dachboden/syncthing-auf-uberspace/"><del>Tutorial</del></a> from <a href="http://maxhaesslein.blog">Max Haesslein</a>. Thanks Max!
+<!-- more --></p>
+
+<h2 id="download-newest-syncthing-version">Download newest Syncthing version</h2>
+
+<p>Connect to your uberspace:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh &lt;user&gt;@&lt;uberspace&gt;
+</code></pre></div></div>
+
+<p>Download the <a href="https://github.com/syncthing/syncthing/releases/latest">newest Syncthing version</a> for Linux:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/etc/  
+wget &lt;NEWEST AMD64 LINUX VERSION&gt;
+</code></pre></div></div>
+
+<p>Extract the file (eXtract Ze Files!) and move it to its own folder:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tar -xzf &lt;FILENAME&gt;
+mv &lt;FOLDERNAME&gt; syncthing/
+</code></pre></div></div>
+
+<p>Link it to your binaries folder and start it once:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ln -s ~/etc/syncthing/syncthing ~/bin/syncthing
+syncthing
+</code></pre></div></div>
+<p>Close the program with CTRL-C.</p>
+
+<h2 id="prepare-your-uberspace">Prepare your Uberspace</h2>
+
+<p>Get the ports we are going to use for GUI and sync:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uberspace-add-port -p tcp --firewall
+🚀  All good! Opened tcp port &lt;PORT1&gt;.
+uberspace-add-port -p both --firewall
+🚀  All good! Opened tcp port &lt;PORT2&gt;.
+</code></pre></div></div>
+
+<p>Add a subdomain to make your Syncthing easily accessible; also make sure it is possible to connect through HTTPS:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uberspace-add-domain -w -d sync.&lt;DOMAIN&gt;.de
+uberspace-letsencrypt
+uberspace-letsencrypt-renew -f
+</code></pre></div></div>
+<p>If you already use LetsEncrypt, you have to add the domain to your configuration. Just follow the steps displayed after the <code class="language-plaintext highlighter-rouge">uberspace-letsencrypt</code>. Don’t forget to add the subdomain to your domain registrar DNS records aswell, so it gets redirected correctly!</p>
+
+<p>Now, create the corresponding folder on the Uberspace:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir /var/www/virtual/&lt;UBERSPACE&gt;/sync.&lt;DOMAIN&gt;.de
+</code></pre></div></div>
+
+<p>Edit the <code class="language-plaintext highlighter-rouge">.htaccess</code> so it sends you to the correct port:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd /var/www/virtual/&lt;UBERSPACE&gt;/sync.&lt;DOMAIN&gt;.de/
+vim .htaccess
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RewriteEngine On
+RewriteRule (.*) http://localhost:&lt;PORT1&gt;/$1 [P]
+</code></pre></div></div>
+
+<h2 id="modify-the-syncthing-config-file">Modify the Syncthing config file</h2>
+
+<p>Open the syncthing config file:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/.config/syncthing
+vim config.xml
+</code></pre></div></div>
+
+<p>Find the GUI entry and replace the port with <code class="language-plaintext highlighter-rouge">&lt;PORT1&gt;</code>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+&lt;gui enabled="true" tls="false" debugging="false"&gt;
+  &lt;address&gt;127.0.0.1:&lt;PORT1&gt;&lt;/address&gt;
+...
+</code></pre></div></div>
+
+<p>Find the options entry and replace the port with <code class="language-plaintext highlighter-rouge">&lt;PORT2&gt;</code>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>...
+&lt;options&gt;
+...
+  &lt;localAnnouncePort&gt;&lt;PORT2&gt;&lt;/localAnnouncePort&gt;
+  &lt;localAnnounceMCAddr&gt;[ff12::8384]&lt;PORT2&gt;&lt;/localAnnounceMCAddr&gt;
+...
+</code></pre></div></div>
+
+<h2 id="setup-syncthing-as-a-service">Setup Syncthing as a service</h2>
+
+<p>If you don’t have any services running, you have to setup the Daemon Tools first: <a href="https://wiki.uberspace.de/system:daemontools">Uberspace Wiki, Daemon Tools</a>.</p>
+
+<p>After setting up the services, you can add Syncthing as a service and restart it once:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uberspace-setup-service syncthing ~/bin/syncthing
+svc -du ~/services/syncthing
+</code></pre></div></div>
+
+<h2 id="secure-your-syncthing-instance">Secure your Syncthing instance</h2>
+
+<p>Your Syncthing is now available via <code class="language-plaintext highlighter-rouge">sync.&lt;DOMAIN&gt;.de</code>. However, it is accessible by everyone on the web. Therefore you should secure it. Got to the Syncthing Settings:
+<img src="/img/20180602-Syncthing-settings.png" alt="You can access your settings via Actions -&gt; Settings" /></p>
+
+<p><strong>IMPORTANT: Do not check <code class="language-plaintext highlighter-rouge">Use HTTPS for GUI</code> you will lose access to your GUI. To get it back you have to find the TLS option in your Syncthing config and set it to <code class="language-plaintext highlighter-rouge">false</code> again. You connections will have TLS and will be secure without checking this box.</strong></p>
+
+<p>And now enter your admin user and password in the corresponding fields:
+<img src="/img/20180602-Syncthing-settings2.png" alt="You can access your settings via Actions -&gt; Settings" /></p>
+
+<h2 id="the-end">The end</h2>
+
+<p>Save and that’s it! You now have a Syncthing service running on Uberspace! Ideal for private documents you don’t want the NSA to have.</p>
+:ET

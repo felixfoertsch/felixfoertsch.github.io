@@ -4,7 +4,7 @@ title: "Basic things to consider when starting an online business"
 categories:
   - Summaries
 tags:
-  - english
+  - English
   - online business
   - checklist
 

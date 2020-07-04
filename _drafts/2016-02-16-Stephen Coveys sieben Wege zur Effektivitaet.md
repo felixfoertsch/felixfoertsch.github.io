@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Stephen Coveys sieben Wege zur Effektivitaet"
+categories:
+  - Personal
+tags:
+  - German
+
+last_modified_at: 
+excerpt_separator: <!-- more -->
+---
 Die übergreifende Botschaft des Buchs lautet:
 
 Wahre Effektivität bedeutet, sich darüber klar zu werden, was man erreichen möchte und diese Ziele proaktiv in die Tat umzusetzen. Dabei fährt man am besten, indem man Synergien mit anderen anstrebt, in dauerhafte Beziehungen investiert und auf ein ausgeglichenes Leben achtet.

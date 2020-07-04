@@ -1,0 +1,59 @@
+I"�<p>My name is Felix. I have a master’s degree in Business Administration and I am currently doing a bachelor’s degree in Computer Science at the <a href="https://uni-leipzig.de">University of Leipzig</a>. On the side, I work as a project manager and can help you, to make your ideas a reality.</p>
+
+<p>Since I am a big <a href="https://apple.com">Apple</a> fan, I am currently learning <a href="https://swift.org">Swift</a>, Apples programming language for macOS, iOS, watchOS and tvOS, to build awesome apps.</p>
+
+<h2 id="contact">Contact</h2>
+
+<p>You can reach me easily by:</p>
+<ul>
+  <li>Writing me an email: <a href="mailto:felixfoertsch@gmail.com">felixfoertsch@gmail.com</a> (<a href="https://gist.github.com/felixfoertsch/e6f143ce5acd323e0043801f51e96223">PGP Key</a>)</li>
+  <li>Calling me on my phone: <a href="tel:+4915152567644">+49 151 525 676 44</a></li>
+  <li>Connecting with me on <a href="https://telegram.org">Telegram</a>: <a href="http://telegram.me/felixfoertsch">@felixfoertsch</a></li>
+  <li>Tweeting to me on <a href="https://twitter.com/">Twitter</a>: <a href="https://twitter.com/felixfoertsch">@felixfoertsch</a></li>
+  <li>Opening an issue on one of my projects on <a href="https://github.com/felixfoertsch">GitHub</a></li>
+  <li>Writing me a letter to: <a href="https://goo.gl/maps/1zVgiV9qfdo">Felix Förtsch, Kurt-Eisner-Str. 55, 04275 Leipzig</a></li>
+</ul>
+
+<h2 id="current-goals">Current Goals</h2>
+
+<p>Public commitments are the most motivating. At the moment I am chasing the following goals. If you would like to help me reach them, check in on me and poke me about them:</p>
+<ul>
+  <li>Finish my bachelor’s degree; <em>Indicator</em>: University certificate.</li>
+  <li>Become a proficient Swift developer; <em>Indicator</em>: Deploy one app to each App Store (macOS/iOS).</li>
+  <li>Publish as much knowledge as I can on my website; <em>Indicator</em>: Publish one useful article every month.</li>
+</ul>
+
+<h2 id="collection">Collection</h2>
+
+<p>Below you find a collection of tips and tricks about things I have learned and found in the past. Since I am living in Germany, some of the tips may not be useful for everyone. In order of coolness.</p>
+
+<h3 id="uberspace"><a href="https://uberspace.de">Uberspace</a></h3>
+<p>is a hosting provider. They offer a shared hosting experience that is a little bit more limited than a root server. However, their support is amazing and it’s a super good place to host for tinkerers and small projects. Highly recommended. Check out my <a href="/category/tutorials.html">Tutorials</a> or the <a href="https://lab.uberspace.de">Uberlab for U7</a> for things you can do on your Uberspace!</p>
+
+<p>Things I am using on Uberspace:</p>
+
+<ul>
+  <li><a href="http://invoiceplane.com">InvoicePlane</a>: Simple invoicing software. Offers sending offers and invoices via email, too!</li>
+  <li><a href="https://matomo.org">Matomao</a>: Analytics software to avoid Google.</li>
+  <li><a href="http://redmine.org">Redmine</a>: Amazing project management solution.</li>
+  <li><a href="http://syncthing.net">Syncthing</a>: File synchronisation alternative.</li>
+</ul>
+
+<h3 id="tecspace"><a href="https://tecspace.de">Tecspace</a></h3>
+<p>is a hosting provider and domain registrar. I buy and manage my domains through their service. It is extremely cheap, costing only 2,50 EUR per year, if you have 10 or more domains. I love their admin interface. It is simple, behaves like a website should behave (no JavaScript shenanigans) and is very powerful.</p>
+
+<h3 id="pinboard"><a href="https://pinboard.in">Pinboard</a></h3>
+<p>is a bookmarking service. It’s minimalistic, easy to use and offers an archiving service so you will never lose these good articles on the internet again. My public account: <a href="https://pinboard.in/u:felixfoertsch">u:felixfoertsch</a>.</p>
+
+<h3 id="affinity"><a href="https://affinity.serif.com/">Affinity</a></h3>
+<p>produces <a href="https://affinity.serif.com/en-gb/designer/">Affinity Designer</a> and <a href="https://affinity.serif.com/en-gb/photo/">Affinity Photo</a>. They are competitors to the popular Adobe Photoshop and Illustrator. These two programs are <em>exceptional</em>. You can do basically everything you can do with their Adobe counterparts, but they only cost 55 EUR each. No subscriptions, no recurring fees. The interface is polished and if you are an Adobe user you will be right at home. Quit Adobe today. Don’t let them milk you.</p>
+
+<h2 id="quotes">Quotes</h2>
+
+<p>Like everyone else, I stumbled upon quotes from famous persons, that stuck with me. Here are a few of them:</p>
+
+<ul>
+  <li>Der Deutsche soll alle Sprachen lernen, damit ihm zu Hause kein Fremder unbequem, er aber in der Fremde überall zu Hause ist. ~ <a href="https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe">Johann Wolfgang von Goethe</a></li>
+  <li><a href="https://www.youtube.com/watch?v=89xUz9fZBXA">Life is scary. Get used to it. There are no magical fixes. It is all up to you. Go out and start doing the work. Nothing in this world that’s worth having comes easy.</a> ~ Bob Kelso</li>
+</ul>
+:ET

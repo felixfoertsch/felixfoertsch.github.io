@@ -4,7 +4,7 @@ title: "iPad Gestures"
 categories:
   - Tip
 tags:
-  - english
+  - English
   - tips
   - iOS
   - iPad

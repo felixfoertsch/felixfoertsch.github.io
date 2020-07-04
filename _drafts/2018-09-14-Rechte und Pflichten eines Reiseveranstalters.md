@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Rechte und Pflichten eines Reiseveranstalters"
+categories:
+  - Personal
+tags:
+  - English
+
+last_modified_at: 
+excerpt_separator: <!-- more -->
+---
 # Rechte und Pflichten eines Reiseveranstalters — und die Gewerbeanmeldung
 
 Hallo liebe Abenteurer! Wie ihr unserem letzten Artikel entnehmen konntet, haben wir uns vorgenommen, Shareventure auf rechtssichere Beine zu stellen. Damit wir euch schon bald die nächste aufregende Tour anbieten können, verfolgen wir dieses Thema mit voller Kraft! # Was ist ein Reiseveranstalter Der Begriff Reiseveranstalters ist zunächst einmal juristischer Natur. Man erfüllt ihn, wenn man eine Pauschalreise im Sinne des BGB (§ 651 a) anbietet. Das bedeutet: zwei Hauptleistungen werden zu einem Gesamtpaket unter eigenem Namen geschnürt. Typische Beispiele sind dafür: Beförderung und Unterkunft, Beförderung und Verkaufsveranstaltung (Werbefahrt, Kaffeefahrt etc.), Unterkunft und Hobbykurs/Sport oder die Kreuzfahrt. Erfüllt man den Tatbestand gilt man als Reiseveranstalter und muss damit bestimmte Pflichten erfüllen, solange man nicht von den Ausnahmeregelungen (auf diese gehen wir hier nicht weiter ein) betroffen ist.

@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Bewerbungsprozess"
+categories:
+  - Personal
+tags:
+  - English
+
+last_modified_at: 
+excerpt_separator: <!-- more -->
+---
 # Bewerbungen
 
 # C.A.R.

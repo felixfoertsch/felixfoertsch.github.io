@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create a Custom CollectionView for a macOS app in Swift"
+title: "The Anatomy of iOS"
 categories:
   - Tutorials
 tags:

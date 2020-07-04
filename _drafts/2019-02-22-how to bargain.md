@@ -1,3 +1,15 @@
+---
+layout: post
+title: "How to Bargain"
+categories:
+  - Personal
+tags:
+  - English
+
+last_modified_at: 
+excerpt_separator: <!-- more -->
+---
+
 **Note, the method detailed in this post works best for single-issue negotiations.  If you're going through a messy divorce, let's say, and you're trying to negotiate every single aspect of your life, then things get a little more complicated. You can still use the strategies listed below, but they work best when you're trying to achieve ONE goal -- like lowering your cable bill or getting more vacation days at work.**
 
 Most people (myself included) are hesitant to negotiate, *especially* when it comes to sensitive issues like our salaries or the price of a new home.

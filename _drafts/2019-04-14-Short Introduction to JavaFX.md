@@ -4,7 +4,7 @@ title: "Short Introduction to JavaFX"
 categories:
   - Tutorials
 tags:
-  - english
+  - English
   - Java
   - JavaFX
   - Swift

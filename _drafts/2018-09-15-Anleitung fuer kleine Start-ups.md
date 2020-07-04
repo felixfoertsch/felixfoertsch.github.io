@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Anleitung für kleine Start-ups"
+categories:
+  - Personal
+tags:
+  - English
+
+last_modified_at: 
+excerpt_separator: <!-- more -->
+---
 # Anleitung für kleine Startups
 
 ## Todo

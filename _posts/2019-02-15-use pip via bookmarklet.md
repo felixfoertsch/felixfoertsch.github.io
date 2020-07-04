@@ -4,7 +4,7 @@ title: "Use Picture-in-Picture Mode on macOS Mojave with a Bookmarklet"
 categories:
   - Tip
 tags:
-  - english
+  - English
   - tips
   - macOS
 

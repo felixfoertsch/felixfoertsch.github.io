@@ -4,7 +4,7 @@ title: "How to Begin an English Sentence"
 categories:
   - Tip
 tags:
-  - english
+  - English
   - writing
   - tips
 
@@ -12,7 +12,7 @@ last_modified_at:
 excerpt_separator: <!-- more -->
 ---
 
-During the writing of my thesis, I collected some english words you can use two empower your writing style.
+During the writing of my thesis, I collected some English words you can use two empower your writing style.
 
 <!-- more -->
 

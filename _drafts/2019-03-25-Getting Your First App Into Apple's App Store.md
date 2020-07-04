@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Getting your first app into Apples App Store"
+title: "Getting Your First App Into Apple's App Store"
 categories:
   - Tutorials
 tags:
-  - english
+  - English
   - swift
   - iOS
 

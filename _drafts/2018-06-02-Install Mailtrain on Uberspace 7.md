@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Install Mailtrain on Uberspace 6 on a Subdomain"
+title: "Install Mailtrain on Uberspace 7"
 categories:
   - Tutorials
 tags:
-  - english
+  - English
   - email
   - mailtrain
   - mailinglist
