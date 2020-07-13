@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/felixfoertsch
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://felixfoertsch.de
+  * I am felixfoertsch (https://keybase.io/felixfoertsch) on keybase.
+  * I have a public key ASD9XW5K8nDQLkToPo-zCymJYADqz9r1TJRgmhC_RTes0wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120fd5d6e4af270d02e44e83e8fb30b29896000eacfdaf54c94609a10bf4537acd30a",
+            "host": "keybase.io",
+            "kid": "0120fd5d6e4af270d02e44e83e8fb30b29896000eacfdaf54c94609a10bf4537acd30a",
+            "uid": "798d110380f106106287a45a90a82d19",
+            "username": "felixfoertsch"
+        },
+        "service": {
+            "hostname": "felixfoertsch.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.22"
+    },
+    "ctime": 1494791888,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1494791851,
+        "hash": "9aa892b0ea93a6067a2a311403f323948bb3571b687dcd7ad70c7eea633a4233c91972dca902808358c54aaeb03b57cf093870a216fa30105ddf17be4ee17d28",
+        "seqno": 1082312
+    },
+    "prev": "fa59fc978d3956129a3cc5e62ed92107fb602b5b59e6b144b7f1a22657ea0994",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/V1uSvJw0C5E6D6PswspiWAA6s/a9UyUYJoQv0U3rNMKp3BheWxvYWTFAv57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZmQ1ZDZlNGFmMjcwZDAyZTQ0ZTgzZThmYjMwYjI5ODk2MDAwZWFjZmRhZjU0Yzk0NjA5YTEwYmY0NTM3YWNkMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZmQ1ZDZlNGFmMjcwZDAyZTQ0ZTgzZThmYjMwYjI5ODk2MDAwZWFjZmRhZjU0Yzk0NjA5YTEwYmY0NTM3YWNkMzBhIiwidWlkIjoiNzk4ZDExMDM4MGYxMDYxMDYyODdhNDVhOTBhODJkMTkiLCJ1c2VybmFtZSI6ImZlbGl4Zm9lcnRzY2gifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImZlbGl4Zm9lcnRzY2guZGUiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMiJ9LCJjdGltZSI6MTQ5NDc5MTg4OCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk0NzkxODUxLCJoYXNoIjoiOWFhODkyYjBlYTkzYTYwNjdhMmEzMTE0MDNmMzIzOTQ4YmIzNTcxYjY4N2RjZDdhZDcwYzdlZWE2MzNhNDIzM2M5MTk3MmRjYTkwMjgwODM1OGM1NGFhZWIwM2I1N2NmMDkzODcwYTIxNmZhMzAxMDVkZGYxN2JlNGVlMTdkMjgiLCJzZXFubyI6MTA4MjMxMn0sInByZXYiOiJmYTU5ZmM5NzhkMzk1NjEyOWEzY2M1ZTYyZWQ5MjEwN2ZiNjAyYjViNTllNmIxNDRiN2YxYTIyNjU3ZWEwOTk0Iiwic2Vxbm8iOjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAVu793WIEbx2uZPCw2yDhInNJpxQo6YychFJ94SdmtVgWZePN8kotqjie2WB9XE+c1EaD6hUbryArm20JV8SLBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEnID3V74qMobWJIRdiFfx6ueIWBuUogBo3oMzxYAAEvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/felixfoertsch
+
+==================================================================
