@@ -30,10 +30,16 @@ plugins:
   - jekyll-octicons
   - jekyll-github-metadata
 
+include:
+  - keybase.txt
+
 exclude:
   - Gemfile
   - Gemfile.lock
+  - jekyll-theme-hydeout.gemspec
+  - LICENSE.md
   - Makefile
+  - package.json
   - README.md
   - .gitignore
 
@@ -56,5 +62,5 @@ sidebar_home_link:  true
 
 github:
   profile: 'https://github.com/felixfoertsch'
-#twitter:
-#  profile: 'https://twitter.com/felixfoertsch'
+twitter:
+  profile: 'https://twitter.com/felixfoertsch'
