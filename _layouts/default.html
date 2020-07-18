@@ -5,12 +5,13 @@
 
   <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
-    {% include sidebar.html %}
+    {% include navigation-top.html %}
 
-    <main class="container">
+    <main class="container-fluid m-auto">
       {{ content }}
     </main>
 
-    {% include custom-foot.html %}
+		{% include pagination.html %}
+    {% include footer.html %}
   </body>
 </html>

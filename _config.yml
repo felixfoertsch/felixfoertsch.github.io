@@ -3,8 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            ff.de
+title:            felixfoertsch.de
 tagline:          'I do project management with focus on technology.'
+version:          1
 description:      ''
 url:              https://felixfoertsch.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"

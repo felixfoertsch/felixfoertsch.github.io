@@ -1,0 +1,20 @@
+<!-- <header>
+  <h1>
+    <a href="{{ "/" | relative_url }}">
+      {% unless page.url == "/" %}
+      <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+      {% endunless %}
+      {{ site.title }}
+    </a>
+  </h1>
+  <p>{{ site.description }}</p>
+</header> -->
+
+<nav class="navbar navbar-expand">
+  {% include nav/sidebar-icons.html %}
+  {% include nav/sidebar-navigation.html %}
+
+  {% if site.author.flair %}
+  <span>{{ site.author.flair }}</span>
+  {% endif %}
+</nav>

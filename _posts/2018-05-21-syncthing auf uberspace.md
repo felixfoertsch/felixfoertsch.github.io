@@ -14,8 +14,8 @@ excerpt_separator: <!-- more -->
 ---
 
 <div class="alert alert-warning">
-  <h2 class="alert-heading">WARNING</h2>
-  <p>Uberspace 6 has reached [EOL](https://en.wikipedia.org/wiki/End-of-life_(product)). If you want to use Syncthing, you can use the [Syncthing tutorial from the Uberlab](https://lab.uberspace.de/guide_syncthing.html).</p>
+  <h2 class="alert-heading">Uberspace 6 has reached <a href="https://en.wikipedia.org/wiki/End-of-life_(product)">EOL</a></h2>
+  <p>If you want to use Syncthing, you should create an Uberspace 7 and refer to the the <a href="https://lab.uberspace.de/guide_syncthing.html">Syncthing tutorial from the Uberlab</a>!</p>
 </div>
 
 This short tutorial explains how to install [Syncthing](https://syncthing.net) on a [Uberspace](https://uberspace.de). It is based on the [~~Tutorial~~](https://maxhaesslein.de/dachboden/syncthing-auf-uberspace/) from [Max Haesslein](http://maxhaesslein.blog). Thanks Max!
