@@ -1,0 +1,9 @@
+{% comment %}
+  Check if we have tag or search pages page active before linking to it.
+{% endcomment %}
+{% assign tags_page = false %}
+{% for node in site.pages %}
+  {% if node.layout == "tags" %}
+    {% assign tags_page = node %}
+  {% endif %}
+{% endfor %}

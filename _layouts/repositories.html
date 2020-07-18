@@ -2,18 +2,18 @@
 layout: default
 ---
 
-<header>
-  <h1 class="page-title">{{ page.title }}</h1>
-</header>
-<div class="content">
-  {{ content }}
-  <div class="mx-auto">
-    {% for repository in site.github.public_repositories limit: 100 %}
+
+<div class="row">
+  <div class="col">
+    {{ content }}
+    <div>
+      {% for repository in site.github.public_repositories limit: 100 %}
       {% if repository.stargazers_count > 0 %}
-      <div class="">
+      <div>
         {% include repo-card.html %}
       </div>
       {% endif %}
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>
