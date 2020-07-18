@@ -1,4 +1,8 @@
 source "https://rubygems.org"
-gemspec
+gem "bundler", ">= 2.0.1"
+gem "jekyll", ">= 3.6", "< 5.0"
+gem "jekyll-gist", "~> 1.4"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-feed", "~> 0.6"
 gem "jekyll-github-metadata"
 gem "jekyll-octicons"
