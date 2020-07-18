@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+<body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
-    {% include navigation-top.html %}
+	{% include nav/navigation.html %}
+	
+	<main class="container-fluid">
+		{% include header.html %}
+		{{ content }}
+	</main>
 
-    <main class="container-fluid m-auto">
-      {{ content }}
-    </main>
-
-		{% include pagination.html %}
-    {% include footer.html %}
-  </body>
+	{% include pagination.html %}
+	{% include footer.html %}
+</body>
 </html>

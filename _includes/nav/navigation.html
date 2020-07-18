@@ -1,0 +1,40 @@
+<!-- <header>
+  <h1>
+    <a href="{{ "/" | relative_url }}">
+      {% unless page.url == "/" %}
+      <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+      {% endunless %}
+      {{ site.title }}
+    </a>
+  </h1>
+  <p>{{ site.description }}</p>
+</header> -->
+
+<nav class="navbar navbar-expand navbar-light bg-light nav-pills">
+  <div class="container-fluid">
+    {% include nav/tags.html %}
+    
+    {% if site.sidebar_home_link %}
+    <a class="nav-link navbar-brand {% if page.url == '/' %} active{% endif %}"
+    href="{{ "/" | relative_url }}">felixfoertsch.de</a>
+    {% endif %}
+
+    {% comment %}
+    The code below dynamically generates a sidebar nav of pages with
+    `sidebar_link: true` in the front-matter. See readme for usage.
+    {% endcomment %}
+
+    {% include nav/pages.html %}
+    {% include nav/categories.html %}
+    {% if tags_page %}
+    <a class="nav-link icon{% if page.url == '/tags' %} active{% endif %}" title="Tags" aria-label="Tags" href="{{ tags_page.url | relative_url }}">
+      {% include svg/tags.svg %} Tags
+    </a>
+    {% endif %}
+    <a class="nav-link" title="Subscribe" aria-label="Subscribe" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">{% include svg/rss.svg %} RSS</a>
+
+    {% if site.author.flair %}
+    <span>{{ site.author.flair }}</span>
+    {% endif %}
+  </div>
+</nav>

@@ -4,6 +4,8 @@ title: About
 sidebar_link: true
 ---
 
+<span class="text-info"> felixfoertsch.de v{{ site.version }} </span>
+
 My name is Felix. I have a master's degree in Business Administration and I am currently doing a bachelor's degree in Computer Science at the [University of Leipzig](https://uni-leipzig.de). On the side, I work as a project manager and can help you, to make your ideas a reality.
 
 Since I am a big [Apple](https://apple.com) fan, I am currently learning [Swift](https://swift.org), Apples programming language for macOS, iOS, watchOS and tvOS, to build awesome apps.

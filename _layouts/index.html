@@ -8,13 +8,12 @@ layout: default
     {{ content }}
 
     {% for post in paginator.posts %}
-    <div class="">
-      <div class="">
-        <h1 class="">
+      <div class="my-3">
+        <h2 class="display-6">
           <a href="{{ post.url | relative_url }}">
             {{ post.title }}
           </a>
-        </h1>
+        </h2>
 
         {% include post-meta.html post=post %}
 
@@ -34,11 +33,10 @@ layout: default
         {% endcapture %}
 
         {% if content_words != excerpt_words %}
-        <a href="{{ post.url | relative_url }}">Read More &rarr;</a>
+        <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-light" >Read More &rarr;</a>
         {% endif %}
         {% endif %}
       </div>
-    </div>
     {% endfor %}
 
   </div>
