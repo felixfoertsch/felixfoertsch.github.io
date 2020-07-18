@@ -9,9 +9,14 @@ tags:
   - self-hosted
   - sync
 
-last_modified_at: 2018-07-03
+last_modified_at: 2020-07-18
 excerpt_separator: <!-- more -->
 ---
+
+<div class="alert alert-warning">
+  <h2 class="alert-heading">WARNING</h2>
+  <p>Uberspace 6 has reached [EOL](https://en.wikipedia.org/wiki/End-of-life_(product)). If you want to use Syncthing, you can use the [Syncthing tutorial from the Uberlab](https://lab.uberspace.de/guide_syncthing.html).</p>
+</div>
 
 This short tutorial explains how to install [Syncthing](https://syncthing.net) on a [Uberspace](https://uberspace.de). It is based on the [~~Tutorial~~](https://maxhaesslein.de/dachboden/syncthing-auf-uberspace/) from [Max Haesslein](http://maxhaesslein.blog). Thanks Max!
 <!-- more -->

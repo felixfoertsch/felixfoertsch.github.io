@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Emacs Journey"
+title: "My Emacs Journey to Org-Mode"
 categories:
   - Personal
 tags:
@@ -18,3 +18,7 @@ If you are studying computer science, you have probably heard of text editors an
 https://www.youtube.com/watch?v=JWD1Fpdd4Pc
 
 https://www.youtube.com/watch?v=oJTwQvgfgMM
+
+https://github.com/magit/magit
+
+https://orgmode.org/
