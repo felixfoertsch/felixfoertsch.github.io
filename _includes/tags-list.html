@@ -9,10 +9,7 @@
   <div>
     {% for tag_pair in tag_words %}
     {% assign tag = tag_pair | split:'|' | last %}
-    <a href="#{{ tag | slugify }}" class="tag-link">
-      <span>{{ tag }}</span>
-      <span>{{ site.tags[tag] | size }}</span>
-    </a>
+    <a href="#{{ tag | slugify }}" class="tag-link"><span class="badge rounded-pill bg-primary">{% include svg/tags.svg %} {{ tag }}: {{ site.tags[tag] | size }}</span></a>
     {% endfor %}
   </div>
 
@@ -25,19 +22,10 @@
       <h2>{{ tag }}</h2>
       <ul>
         {% for post in site.tags[tag] %}
-          <li>
-            <h3>
-              <a href="{{ post.url | relative_url }}">
-                {{ post.title }}
-                
-                {% if post.last_modified_at %}
-                <small>{{ post.last_modified_at | date: "%Y-%m-%d" }}</small>
-                {% else %}
-                <small>{{ post.date | date: "%Y-%m-%d" }}</small>
-                {% endif %}
-              </a>
-            </h3>
-          </li>
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% include date-badges.html %}
+        </li>
         {% endfor %}
       </ul>
     </div>
