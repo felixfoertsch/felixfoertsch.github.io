@@ -4,7 +4,7 @@ title: About
 sidebar_link: true
 ---
 
-<span> felixfoertsch.de v{{ site.version }}</span>
+<a href="https://felixfoertsch.de">felixfoertsch.de</a> <span class="badge bg-primary"> v{{ site.version }}</span>
 
 My name is Felix. I have a master's degree in Business Administration and I am currently doing a bachelor's degree in Computer Science at the [University of Leipzig](https://uni-leipzig.de). My main interest are technology---especially computers, the Internet, and everything connected to these things---and project management.
 

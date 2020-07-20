@@ -3,7 +3,7 @@ Dynamically generate list of links to all category pages
 {% endcomment %}
 
 <li class="nav-item dropdown">
-	<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Post Categories</a>
+	<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">{% include svg/filter.svg %} Post Categories</a>
 	<ul class="dropdown-menu">
 		{% assign pages_list = site.pages|sort:"sidebar_sort_order" %}
 		{% for node in pages_list %}

@@ -1,0 +1,6 @@
+{% if post.last_modified_at %}
+	<small class="badge bg-dark text-light">{{ post.date | date: "%Y-%m-%d" }}</small>
+	<small class="badge bg-success">{% include svg/refresh.svg %} Updated: {{ post.last_modified_at | date: "%Y-%m-%d" }}</small>
+{% else %}
+	<small class="badge bg-dark text-light">{{ post.date | date: "%Y-%m-%d" }}</small>
+{% endif %}

@@ -25,19 +25,10 @@
       <h2>{{ tag }}</h2>
       <ul>
         {% for post in site.tags[tag] %}
-          <li>
-            <h3>
-              <a href="{{ post.url | relative_url }}">
-                {{ post.title }}
-                
-                {% if post.last_modified_at %}
-                <small>{{ post.last_modified_at | date: "%Y-%m-%d" }}</small>
-                {% else %}
-                <small>{{ post.date | date: "%Y-%m-%d" }}</small>
-                {% endif %}
-              </a>
-            </h3>
-          </li>
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% include date-badges.html %}
+        </li>
         {% endfor %}
       </ul>
     </div>
