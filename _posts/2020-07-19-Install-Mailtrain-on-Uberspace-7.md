@@ -5,12 +5,7 @@ categories:
   - Tutorials
 tags:
   - English
-  - email
-  - mailtrain
-  - mailinglist
-  - software
-  - self-hosted
-  - tutorial
+  - Self-Hosted Software
 
 last_modified_at:
 excerpt_separator: <!-- more -->

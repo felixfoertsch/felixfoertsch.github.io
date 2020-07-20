@@ -1,4 +1,4 @@
 ---
 layout: category
-title: Tutorials
+title: Tips
 ---

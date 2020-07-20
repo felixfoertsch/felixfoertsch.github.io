@@ -9,16 +9,18 @@ tags:
 last_modified_at: 
 excerpt_separator: <!-- more -->
 ---
-# Rechte und Pflichten eines Reiseveranstalters — und die Gewerbeanmeldung
 
 Hallo liebe Abenteurer! Wie ihr unserem letzten Artikel entnehmen konntet, haben wir uns vorgenommen, Shareventure auf rechtssichere Beine zu stellen. Damit wir euch schon bald die nächste aufregende Tour anbieten können, verfolgen wir dieses Thema mit voller Kraft! # Was ist ein Reiseveranstalter Der Begriff Reiseveranstalters ist zunächst einmal juristischer Natur. Man erfüllt ihn, wenn man eine Pauschalreise im Sinne des BGB (§ 651 a) anbietet. Das bedeutet: zwei Hauptleistungen werden zu einem Gesamtpaket unter eigenem Namen geschnürt. Typische Beispiele sind dafür: Beförderung und Unterkunft, Beförderung und Verkaufsveranstaltung (Werbefahrt, Kaffeefahrt etc.), Unterkunft und Hobbykurs/Sport oder die Kreuzfahrt. Erfüllt man den Tatbestand gilt man als Reiseveranstalter und muss damit bestimmte Pflichten erfüllen, solange man nicht von den Ausnahmeregelungen (auf diese gehen wir hier nicht weiter ein) betroffen ist.
-# Welche Pflichten hat man
+
+<!-- more -->
+
+## Welche Pflichten hat man
 
 Die wichtigsten Pflichten sind zunächst einmal, dass man als Reiseveranstalter natürlich ein angemeldetes Gewerbe benötigt. Dazu kommen bestimmte Versicherungen, die die Kunden des Reiseveranstalters mit absichern. Haftungsrisiken 
 
-# Die Gewerbeanmeldung Leipzig Kosten Notwendige Unterlagen
+## Die Gewerbeanmeldung Leipzig Kosten Notwendige Unterlagen
 
-# Pflichtversicherungen für Reiseveranstalter
+## Pflichtversicherungen für Reiseveranstalter
 
 Als Reiseveranstalter ist man verpflichtet bestimmte Versicherungen abzuschließen. In einem vorherigen Beitrag haben wir schon abgedeckt, was für Rechten und Pflichten man generell hat. Die Versicherungen sind eine konkrete Ausprägung dieser Pflichten.
 
@@ -43,7 +45,7 @@ Die dritte im Bunde ist ein Sonderfall, denn hier kommen mehrere Dinge zusammen.
 
 Wir finden, der Gesetzgeber hat hier ganz gut mitgedacht und die wichtigsten Aspekte berücksichtigt. Das schöne ist: ihr müsst euch um so gut wie nicht kümmern, als um eure Abenteuervorbereitung und könnt trotzdem mit ruhigem Gewissen mitkommen. Denn um die wichtigsten Versicherungsthemen haben wir uns schon gekümmert!
 
-# Private Touren und deren Risiken
+## Private Touren und deren Risiken
 Bisher sind alle Touren im privaten Rahmen veranstaltet worden. Aber gibt es so etwas überhaupt? Durch Zufall sind wir neulich darauf aufmerksam gemacht worden, dass sich viele private Veranstalter in einer gesetzlichen Grauzone bewegen. Denn es gibt gewisse Regelungen, die dazu führen, dass man vor dem Gesetz als Reiseveranstalter gilt, was gravierende Konsequenzen nach sich zieht!
 
 Als Reiseveranstalter zu gelten bedeutet, dass man für die Reisedurchführung ein angemeldetes Gewerbe benötigt und verpflichtet ist die gesetzlich vorgeschriebenen Versicherung abgeschlossen zu haben. Da wird aus der ursprünglich einfach gedachten Wandertour mit Freunden plötzlich ein rechtliches "Monster". Und ja, das gilt auch, wenn das ganze privat abläuft! Denn laut Gesetz gilt man als Reiseveranstalter, wenn man zwei oder mehr Hauptleistungen einer Reise zu einem Pauschalpreis zusammenfasst.

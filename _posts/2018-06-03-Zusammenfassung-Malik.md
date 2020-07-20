@@ -1,14 +1,11 @@
 ---
 layout: post
-title: "Zsfg von Fredmund Maliks Führen, Leisten, Leben"
+title: "Zusammenfassung von Fredmund Maliks Führen, Leisten, Leben"
 categories:
   - Summaries
 tags:
-  - deutsch
-  - zusammenfassung
-  - buch
-  - projektmanagement
-  - philosophie
+  - Deutsch
+  - Philosophie
 
 last_modified_at:
 excerpt_separator: <!-- more -->

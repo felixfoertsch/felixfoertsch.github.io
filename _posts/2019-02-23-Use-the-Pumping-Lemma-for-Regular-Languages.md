@@ -4,9 +4,8 @@ title: "Use the Pumping Lemma for Regular Languages"
 categories:
   - Tutorials
 tags:
-  - proof
-  - automata and languages
-  - computer science
+  - Proof
+  - Computer Science
 
 last_modified_at: 2019-04-04
 excerpt_separator: <!-- more -->

@@ -9,7 +9,6 @@ tags:
 last_modified_at: 
 excerpt_separator: <!-- more -->
 ---
-# How to change your life
 
 I was always annoyed by people, who were complaining, but not doing or changing anything about their problems. Complaining about their families, about their jobs - about their life. Everyone knows at least one person like that. I always thought that if they were not happy, they should change something! But since I am a very polite person, I didn’t get in their faces. It would not have mattered anyway, I guess.
 

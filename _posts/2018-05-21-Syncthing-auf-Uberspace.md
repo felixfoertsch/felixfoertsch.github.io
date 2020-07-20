@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Install Syncthing on Uberspace 6 on a Subdomain"
+title: "Install Syncthing on Uberspace 6 in a Subdomain"
 categories:
   - Tutorials
 tags:
   - English
-  - software
-  - self-hosted
-  - sync
+  - Self-Hosted Software
 
 last_modified_at: 2020-07-18
 excerpt_separator: <!-- more -->

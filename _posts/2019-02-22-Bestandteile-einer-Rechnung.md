@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Die Rechnung"
-categories:
-  - PM
+
 tags:
-  - deutsch
-  - checklist
-  - projektmanagement
+  - Deutsch
+  - Checklist
 
 last_modified_at: 2019-03-25
 excerpt_separator: <!-- more -->
