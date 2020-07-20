@@ -2,11 +2,10 @@
 layout: post
 title: "Collection of High Quality Swift Libraries"
 categories:
-  - Collection
+  - Programming
 tags:
   - English
   - Swift
-  - Programming
 
 last_modified_at: 2019-03-30
 excerpt_separator: <!-- more -->

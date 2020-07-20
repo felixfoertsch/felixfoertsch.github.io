@@ -2,11 +2,10 @@
 layout: post
 title: "Explore Bitcoin Core Codebase"
 categories:
-  - Code
+  - Programming
 tags:
   - English
-  - software
-  - cli
+  - Software
 
 last_modified_at:
 excerpt_separator: <!-- more -->

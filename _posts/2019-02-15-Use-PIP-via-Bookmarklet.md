@@ -2,12 +2,10 @@
 layout: post
 title: "Use Picture-in-Picture Mode on Mac and iPad with a Bookmarklet"
 categories:
-  - Tip
+  - Tips
 tags:
   - English
-  - tips
-  - macOS
-  - iPadOS
+  - Apple
 
 last_modified_at: 2020-07-20
 excerpt_separator: <!-- more -->

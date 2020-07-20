@@ -5,7 +5,6 @@ categories:
   - Summaries
 tags:
   - English
-  - Business
   - Checklist
 
 last_modified_at: 2019-03-25

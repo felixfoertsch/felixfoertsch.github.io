@@ -5,8 +5,7 @@ categories:
   - Summaries
 tags:
   - Deutsch
-  - Zusammenfassung
-  - Buch
+  - Philosophie
 
 last_modified_at:
 excerpt_separator: <!-- more -->

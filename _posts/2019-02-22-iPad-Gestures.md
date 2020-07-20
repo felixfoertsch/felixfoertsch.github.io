@@ -5,8 +5,7 @@ categories:
   - Tips
 tags:
   - English
-  - iOS
-  - iPad
+  - Apple
 
 last_modified_at:
 excerpt_separator: <!-- more -->

@@ -2,7 +2,7 @@
 layout: post
 title: "How to Begin an English Sentence"
 categories:
-  - Tips
+  - Tutorials
 tags:
   - English
   - Writing
