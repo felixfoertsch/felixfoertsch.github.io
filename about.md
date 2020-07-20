@@ -14,10 +14,10 @@ Since I am a big [Apple](https://apple.com) fan, I am currently learning [Swift]
 
 You can reach or connect with me easily by:
 - Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com) ([PGP Key](https://keys.openpgp.org/search?q=felixfoertsch%40gmail.com)) --- or if you are daring and your Ö key works: [felix@förtsch.de](mailto:felix@förtsch.de) ([PGP Key](https://keys.openpgp.org/search?q=felix%40f%C3%B6rtsch.de))
-- Connecting with me on [Telegram](https://telegram.org): [@felixfoertsch](http://telegram.me/felixfoertsch)
-- Tweeting to me on [Twitter](https://twitter.com/): [@felixfoertsch](https://twitter.com/felixfoertsch)
-- Opening an issue on one of my projects on [GitHub](https://github.com/felixfoertsch)
-- Following my public Pinboard account: [u:felixfoertsch](https://pinboard.in/u:felixfoertsch).
+- Connecting with me on Telegram: [@felixfoertsch](http://telegram.me/felixfoertsch)
+- Following me on Twitter: [@felixfoertsch](https://twitter.com/felixfoertsch)
+- Opening an issue on one of my projects on Github: [github.com/felixfoertsch](https://github.com/felixfoertsch)
+- Following my public Pinboard account: [u:felixfoertsch](https://pinboard.in/u:felixfoertsch)
 
 ## Current Goals
 
