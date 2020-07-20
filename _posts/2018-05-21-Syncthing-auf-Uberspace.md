@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Install Syncthing on Uberspace 6 on a Subdomain"
+title: "Install Syncthing on Uberspace 6 in a Subdomain"
 categories:
   - Tutorials
 tags:

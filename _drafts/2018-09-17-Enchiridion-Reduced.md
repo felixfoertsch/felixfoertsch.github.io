@@ -9,6 +9,7 @@ tags:
 last_modified_at: 
 excerpt_separator: <!-- more -->
 ---
+
 1) Some things are in our control and other things are not.
 2) Shun only those things you have the power to avoid; desire only those things you have the power to acquire.
 3) Look first at things as they are, letting your own sentiments about them fall to the wayside.

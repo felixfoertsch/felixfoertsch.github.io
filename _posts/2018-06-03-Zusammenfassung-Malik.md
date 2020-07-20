@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Zsfg von Fredmund Maliks Führen, Leisten, Leben"
+title: "Zusammenfassung von Fredmund Maliks Führen, Leisten, Leben"
 categories:
   - Summaries
 tags:

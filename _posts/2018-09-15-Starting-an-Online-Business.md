@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basic things to consider when starting an online business"
+title: "Basic Things to Consider When Starting an Online Business"
 categories:
   - Summaries
 tags:

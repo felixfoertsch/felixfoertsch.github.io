@@ -6,53 +6,27 @@ sidebar_link: true
 
 <span> felixfoertsch.de v{{ site.version }}</span>
 
-My name is Felix. I have a master's degree in Business Administration and I am currently doing a bachelor's degree in Computer Science at the [University of Leipzig](https://uni-leipzig.de). On the side, I work as a project manager and can help you, to make your ideas a reality.
+My name is Felix. I have a master's degree in Business Administration and I am currently doing a bachelor's degree in Computer Science at the [University of Leipzig](https://uni-leipzig.de). My main interest are technology---especially computers, the Internet, and everything connected to these things---and project management.
 
 Since I am a big [Apple](https://apple.com) fan, I am currently learning [Swift](https://swift.org), Apples programming language for macOS, iOS, watchOS and tvOS, to build awesome apps.
 
 ## Contact
 
-You can reach me easily by:
-- Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com) ([PGP Key](https://gist.github.com/felixfoertsch/e6f143ce5acd323e0043801f51e96223))
-- Calling me on my phone: [+49 151 525 676 44](tel:+4915152567644)
+You can reach or connect with me easily by:
+- Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com) ([PGP Key](https://keys.openpgp.org/search?q=felixfoertsch%40gmail.com)) --- or if you are daring and your Ö key works: [felix@förtsch.de](mailto:felix@förtsch.de) ([PGP Key](https://keys.openpgp.org/search?q=felix%40f%C3%B6rtsch.de))
 - Connecting with me on [Telegram](https://telegram.org): [@felixfoertsch](http://telegram.me/felixfoertsch)
 - Tweeting to me on [Twitter](https://twitter.com/): [@felixfoertsch](https://twitter.com/felixfoertsch)
 - Opening an issue on one of my projects on [GitHub](https://github.com/felixfoertsch)
-- Writing me a letter to: [Felix Förtsch, Kurt-Eisner-Str. 55, 04275 Leipzig](https://goo.gl/maps/1zVgiV9qfdo)
-
+- Following my public Pinboard account: [u:felixfoertsch](https://pinboard.in/u:felixfoertsch).
 
 ## Current Goals
 
 Public commitments are the most motivating. At the moment I am chasing the following goals. If you would like to help me reach them, check in on me and poke me about them:
-- Finish my bachelor's degree; _Indicator_: University certificate.
-- Become a proficient Swift developer; _Indicator_: Deploy one app to each App Store (macOS/iOS).
-- Publish as much knowledge as I can on my website; _Indicator_: Publish one useful article every month.
+- Finish my bachelor's degree → _Indicator_: University certificate.
+- Become a proficient Swift developer → _Indicator_: Deploy one app to each App Store (macOS/iOS).
+- Publish as much knowledge as I can on my website → _Indicator_: Publish one useful article every month.
 
-
-## Collection
-
-Below you find a collection of tips and tricks about things I have learned and found in the past. Since I am living in Germany, some of the tips may not be useful for everyone. In order of coolness.
-
-### [Uberspace](https://uberspace.de)
-is a hosting provider. They offer a shared hosting experience that is a little bit more limited than a root server. However, their support is amazing and it's a super good place to host for tinkerers and small projects. Highly recommended. Check out my [Tutorials](/category/tutorials.html) or the [Uberlab for U7](https://lab.uberspace.de) for things you can do on your Uberspace!
-
-Things I am using on Uberspace:
-
-- [InvoicePlane](http://invoiceplane.com): Simple invoicing software. Offers sending offers and invoices via email, too!
-- [Matomao](https://matomo.org): Analytics software to avoid Google.
-- [Redmine](http://redmine.org): Amazing project management solution.
-- [Syncthing](http://syncthing.net): File synchronisation alternative.
-
-### [Tecspace](https://tecspace.de)
-is a hosting provider and domain registrar. I buy and manage my domains through their service. It is extremely cheap, costing only 2,50 EUR per year, if you have 10 or more domains. I love their admin interface. It is simple, behaves like a website should behave (no JavaScript shenanigans) and is very powerful.
-
-### [Pinboard](https://pinboard.in)
-is a bookmarking service. It's minimalistic, easy to use and offers an archiving service so you will never lose these good articles on the internet again. My public account: [u:felixfoertsch](https://pinboard.in/u:felixfoertsch).
-
-### [Affinity](https://affinity.serif.com/)
-produces [Affinity Designer](https://affinity.serif.com/en-gb/designer/) and [Affinity Photo](https://affinity.serif.com/en-gb/photo/). They are competitors to the popular Adobe Photoshop and Illustrator. These two programs are *exceptional*. You can do basically everything you can do with their Adobe counterparts, but they only cost 55 EUR each. No subscriptions, no recurring fees. The interface is polished and if you are an Adobe user you will be right at home. Quit Adobe today. Don't let them milk you.
-
-## Quotes
+## My Favorite Quotes
 
 Like everyone else, I stumbled upon quotes from famous persons, that stuck with me. Here are a few of them:
 
