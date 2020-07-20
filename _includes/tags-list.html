@@ -9,10 +9,7 @@
   <div>
     {% for tag_pair in tag_words %}
     {% assign tag = tag_pair | split:'|' | last %}
-    <a href="#{{ tag | slugify }}" class="tag-link">
-      <span>{{ tag }}</span>
-      <span>{{ site.tags[tag] | size }}</span>
-    </a>
+    <a href="#{{ tag | slugify }}" class="tag-link"><span class="badge rounded-pill bg-primary">{% include svg/tags.svg %} {{ tag }}: {{ site.tags[tag] | size }}</span></a>
     {% endfor %}
   </div>
 
