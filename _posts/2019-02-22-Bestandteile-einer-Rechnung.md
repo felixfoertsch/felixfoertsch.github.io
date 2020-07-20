@@ -4,9 +4,9 @@ title: "Die Rechnung"
 categories:
   - PM
 tags:
-  - deutsch
-  - checklist
-  - projektmanagement
+  - Deutsch
+  - Checklist
+  - Business
 
 last_modified_at: 2019-03-25
 excerpt_separator: <!-- more -->

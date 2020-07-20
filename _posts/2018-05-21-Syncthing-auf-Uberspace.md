@@ -5,9 +5,7 @@ categories:
   - Tutorials
 tags:
   - English
-  - software
-  - self-hosted
-  - sync
+  - Self-Hosted Software
 
 last_modified_at: 2020-07-18
 excerpt_separator: <!-- more -->

@@ -4,11 +4,9 @@ title: "Zusammenfassung von Fredmund Maliks Führen, Leisten, Leben"
 categories:
   - Summaries
 tags:
-  - deutsch
-  - zusammenfassung
-  - buch
-  - projektmanagement
-  - philosophie
+  - Deutsch
+  - Zusammenfassung
+  - Buch
 
 last_modified_at:
 excerpt_separator: <!-- more -->

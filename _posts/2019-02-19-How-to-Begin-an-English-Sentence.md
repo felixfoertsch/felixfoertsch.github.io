@@ -2,11 +2,10 @@
 layout: post
 title: "How to Begin an English Sentence"
 categories:
-  - Tip
+  - Tips
 tags:
   - English
-  - writing
-  - tips
+  - Writing
 
 last_modified_at:
 excerpt_separator: <!-- more -->

@@ -5,8 +5,8 @@ categories:
   - Summaries
 tags:
   - English
-  - online business
-  - checklist
+  - Business
+  - Checklist
 
 last_modified_at: 2019-03-25
 excerpt_separator: <!-- more -->

@@ -5,12 +5,7 @@ categories:
   - Tips
 tags:
   - English
-  - email
-  - mailtrain
-  - mailinglist
-  - software
-  - self-hosted
-  - tutorial
+  - Collection
 
 last_modified_at:
 excerpt_separator: <!-- more -->

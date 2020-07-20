@@ -5,8 +5,7 @@ categories:
   - Art
 tags:
   - English
-  - reading
-  - art
+  - Reading
 
 last_modified_at:
 excerpt_separator: <!-- more -->

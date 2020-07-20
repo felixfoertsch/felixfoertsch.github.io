@@ -5,10 +5,8 @@ categories:
   - Collection
 tags:
   - English
-  - swift
-  - macOS
-  - iOS
-  - programming
+  - Swift
+  - Programming
 
 last_modified_at: 2019-03-30
 excerpt_separator: <!-- more -->
