@@ -27,6 +27,8 @@ Since I participated in the GitHub repository of Telegram in the past---it wasn'
 
 The way the bot should behave is pretty simple. I want to be able to send the bot a sticker and it should put it in the curated pack. It should then update the pack so all the clients receive the updated sticker pack. Ultimately I want to only subscribe to my personal sticker pack that contains all my favorites.
 
+Another use case: share the administration of a favorite pack by adding a bot to a group?
+
 ## Reading the Docs
 
 Using [@stickerdownloadbot](https://telegram.me/stickerdownloadbot) to download the pictures.
