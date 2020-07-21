@@ -7,12 +7,12 @@ tags:
   - English
   - Self-Hosted Software
 
-last_modified_at:
+last_modified_at: 2020-07-21
 excerpt_separator: <!-- more -->
 ---
 
 This tutorial explains how to install [Mailtrain](https://mailtrain.org) on a [Uberspace 7](uberspace.de). [Mailtrain](https://mailtrain.org/) is a self-hosted open-source (released under the [GPL
-v3.0](https://github.com/Mailtrain-org/mailtrain/blob/master/LICENSE).) newsletter app built on top of [Nodemailer](https://nodemailer.com/). I am following the [manual installation guide](https://github.com/Mailtrain-org/mailtrain#quick-start---manual-install-any-os-that-supports-nodejs) from the official Mailtrain repo and add some additional Uberspace infos. I contributed this guide to the [Uberlab](lab.uberspace.de)---see [here](https://github.com/Uberspace/lab/issues/430)---but at the point of writing, it has not yet been merged.
+v3.0](https://github.com/Mailtrain-org/mailtrain/blob/master/LICENSE).) newsletter app built on top of [Nodemailer](https://nodemailer.com/). I am following the [manual installation guide](https://github.com/Mailtrain-org/mailtrain#quick-start---manual-install-any-os-that-supports-nodejs) from the official Mailtrain repo and add some additional Uberspace infos. I contributed this guide to the [Uberlab](https://lab.uberspace.de/guide_mailtrain.html) and earned my first [Ubercup](https://github.com/Uberspace/lab/blob/master/CONTRIBUTING.md#reward).
 
 <!-- more -->
 
@@ -115,32 +115,29 @@ address as well as your password.
 
 ## Finishing installation
 
-This guide contains only the required settings that enable full Mailtrain functionality. Change the rest of the settings according to your requirements.
-
-Go to `https://isabell.uber.space/settings`.
-
-In the **General Settings** section change the **Service Address (URL)**
+Go to `https://isabell.uber.space/settings`. In the **General Settings** section change the **Service Address (URL)**
 to `https://isabell.uber.space/`.
 
 In the **Mailer Settings** section change the
 
-> -   *Hostname* to `stardust.uberspace.de`,
-> -   *Port* to `587`,
-> -   *Encryption* to
->     `Use STARTTLS - usually selected for port 587 and 25`,
-> -   *username* to `isabell@uber.space`,
-> -   *password* to `MySuperSecretPassword` and
+> -   *Hostname*,
+> -   *Port*,
+> -   *Encryption*,
+> -   *username*,
+> -   *password*, and
 > -   test your settings by pressing the Button **Check Mailer Config**.
 
 {% include bootstrap/alert.html 
-  content="Uberspace discourages **mass** mailings. If you regularly send a large amount of emails, consider using [AWS SES](https://aws.amazon.com/ses/) instead of the Uberspace mailing system."
+  content="Uberspace does not allow mass mailings from their servers according to their House Rules. However, you can use Mailtrain as the admin interface for your mailing needs. Use the SMTP services from AWS SES, Sendgrid, Mailgun, etc. for the actual mailing."
   style="warning"
 %}
 
 ## Best Practices
 
-Test the configuration by creating a new list and subscribing yourself
+* Test the configuration by creating a new list and subscribing yourself
 to it.
+* Craft your campaign with love and dedication.
+* Don’t spam users that don’t want your newsletter.
 
 ------------------------------------------------------------------------
 
