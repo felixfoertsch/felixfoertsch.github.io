@@ -4,8 +4,6 @@ title: About
 sidebar_link: true
 ---
 
-<a href="https://felixfoertsch.de">felixfoertsch.de</a> <span class="badge bg-primary"> v{{ site.version }}</span>
-
 My name is Felix. I have a master's degree in Business Administration and I am currently doing a bachelor's degree in Computer Science at the [University of Leipzig](https://uni-leipzig.de). My main interest are technology---especially computers, the Internet, and everything connected to these things---and project management.
 
 Since I am a big [Apple](https://apple.com) fan, I am currently learning [Swift](https://swift.org), Apples programming language for macOS, iOS, watchOS and tvOS, to build awesome apps.
@@ -32,3 +30,5 @@ Like everyone else, I stumbled upon quotes from famous persons, that stuck with 
 
 - Der Deutsche soll alle Sprachen lernen, damit ihm zu Hause kein Fremder unbequem, er aber in der Fremde überall zu Hause ist. ~ [Johann Wolfgang von Goethe](https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe)
 - [Life is scary. Get used to it. There are no magical fixes. It is all up to you. Go out and start doing the work. Nothing in this world that's worth having comes easy.](https://www.youtube.com/watch?v=89xUz9fZBXA) ~ Bob Kelso
+
+## Website Version <span class="badge bg-info">v{{ site.version }}</span>
