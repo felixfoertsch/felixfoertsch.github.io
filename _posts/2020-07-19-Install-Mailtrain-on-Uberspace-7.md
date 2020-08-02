@@ -12,7 +12,7 @@ excerpt_separator: <!-- more -->
 ---
 
 This tutorial explains how to install [Mailtrain](https://mailtrain.org) on a [Uberspace 7](uberspace.de). [Mailtrain](https://mailtrain.org/) is a self-hosted open-source (released under the [GPL
-v3.0](https://github.com/Mailtrain-org/mailtrain/blob/master/LICENSE).) newsletter app built on top of [Nodemailer](https://nodemailer.com/). I am following the [manual installation guide](https://github.com/Mailtrain-org/mailtrain#quick-start---manual-install-any-os-that-supports-nodejs) from the official Mailtrain repo and add some additional Uberspace infos. I contributed this guide to the [Uberlab](https://lab.uberspace.de/guide_mailtrain.html) and earned my first [Ubercup](https://github.com/Uberspace/lab/blob/master/CONTRIBUTING.md#reward).
+v3.0](https://github.com/Mailtrain-org/mailtrain/blob/master/LICENSE).) newsletter app built on top of [Nodemailer](https://nodemailer.com/). I am following the [manual installation guide](https://github.com/Mailtrain-org/mailtrain#quick-start---manual-install-any-os-that-supports-nodejs) from the official Mailtrain repo and add some additional Uberspace infos. I contributed [this guide](https://lab.uberspace.de/guide_mailtrain.html) to the [Uberlab](https://lab.uberspace.de/) and earned my first [Ubercup](https://github.com/Uberspace/lab/blob/master/CONTRIBUTING.md#reward).
 
 <!-- more -->
 
