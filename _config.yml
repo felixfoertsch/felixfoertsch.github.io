@@ -1,11 +1,17 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  extensions: fenced_code_blocks
+
 
 # Setup
 title:            felixfoertsch.de
 tagline:          '🚀 Rocketing along.'
-version:          12
+version:          13
 description:      ''
 url:              https://felixfoertsch.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"

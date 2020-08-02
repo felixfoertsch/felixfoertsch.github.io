@@ -1,18 +1,23 @@
-$primary:    $macOS-systemPurple-dark;
-$secondary:  $macOS-systemGreen-dark;
-$success:    $macOS-systemGreen-dark;
-$info:       $macOS-systemTeal-dark;
-$warning:    $macOS-systemOrange-dark;
-$danger:     $macOS-systemRed-dark;
-$light:      $macOS-labelColor-dark;
-$dark:       $macOS-systemGray-dark;
+// Settings
+$enable-gradients:            false;
+$enable-shadows:            true;
 
-html, main {
-	color: $macOS-textColor-dark;
-	background-color: $macOS-windowBackgroundColor-dark;
-}
 
-nav {
-	color: $macOS-textColor-dark;
-	background-color: $macOS-windowBackgroundColor-dark;
-}
+// Colors
+$primary:       $macOS-systemPurple-dark;
+$secondary:     $macOS-systemGreen-dark;
+$success:       $macOS-systemGreen-dark;
+$info:          $macOS-systemTeal-dark;
+$warning:       $macOS-systemOrange-dark;
+$danger:        $macOS-systemRed-dark;
+$light:         $macOS-labelColor-dark;
+$dark:          $macOS-controlBackground-dark;
+
+$body-bg:                   $macOS-windowBackgroundColor-dark;
+$body-color:                $macOS-textColor-dark;
+
+$component-active-color:      $macOS-textColor-dark;
+$component-active-bg:         $primary;
+
+// Display
+$display-font-weight: 600;
