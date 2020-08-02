@@ -11,7 +11,7 @@ kramdown:
 # Setup
 title:            felixfoertsch.de
 tagline:          '🚀 Rocketing along.'
-version:          13
+version:          14
 description:      ''
 url:              https://felixfoertsch.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
