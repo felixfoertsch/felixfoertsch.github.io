@@ -8,7 +8,7 @@ layout: default
 		{{ content }}
 
 		{% for post in paginator.posts %}
-		<div class="my-3">
+		<div class="py-3">
 			<h2>
 				<a href="{{ post.url | relative_url }}">
 					{{ post.title }}
@@ -18,23 +18,23 @@ layout: default
 			{% include post-meta.html post=post %}
 
 			{% if post.excerpt %}
-			{{ post.excerpt }}
+				{{ post.excerpt }}
 			{% else %}
-			{{ post.content }}
+				{{ post.content }}
 			{% endif %}
 
 			{% if post.excerpt %}
-			{% comment %}Excerpt may be equal to content. Check.{% endcomment %}
-			{% capture content_words %}
-			{{ post.content | number_of_words }}
-			{% endcapture %}
-			{% capture excerpt_words %}
-			{{ post.excerpt | number_of_words }}
-			{% endcapture %}
+				{% comment %}Excerpt may be equal to content. Check.{% endcomment %}
+				{% capture content_words %}
+				{{ post.content | number_of_words }}
+				{% endcapture %}
+				{% capture excerpt_words %}
+				{{ post.excerpt | number_of_words }}
+				{% endcapture %}
 
-			{% if content_words != excerpt_words %}
-			<a href="{{ post.url | relative_url }}" class="btn btn-primary btn-circle btn-sm" >&rarr;</a>
-			{% endif %}
+				{% if content_words != excerpt_words %}
+					<a href="{{ post.url | relative_url }}" class="btn btn-primary btn-circle btn-sm" >&rarr;</a>
+				{% endif %}
 			{% endif %}
 		</div>
 		{% endfor %}

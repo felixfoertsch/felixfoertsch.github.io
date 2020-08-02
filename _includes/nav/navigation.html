@@ -1,35 +1,36 @@
-<nav class="navbar navbar-expand-md">
-  <div class="container-fluid">
-    {% if site.sidebar_home_link %}
-      <img src="/favicon.png" width="30" height="30" alt="" loading="lazy"> <a class="nav-link navbar-brand {% if page.url == '/' %} active{% endif %}" href="{{ "/" | relative_url }}">felixfoertsch.de</a>
-    {% endif %}
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-toggle" aria-controls="navigation-toggle" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navigation-toggle">
-      <div class="navbar-nav">
-        {% include nav/tags.html %}
+<nav class="navbar navbar-dark bg-dark navbar-expand-md d-flex">
+	<div class="container-fluid">
+		{% if site.sidebar_home_link %}
+		<a class="nav-link navbar-brand {% if page.url == '/' %} active{% endif %}" href="{{ "/" | relative_url }}"><img src="/favicon.png" width="30" height="30" alt=""> </a>
+		{% endif %}
 
-        {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `sidebar_link: true` in the front-matter. See readme for usage.
-        {% endcomment %}
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-toggle" aria-controls="navigation-toggle" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>		
+		
+		<div class="collapse navbar-collapse" id="navigation-toggle">
+			<div class="navbar-nav">
+				{% include nav/tags.html %}
 
-        {% include nav/pages.html %}
-        {% include nav/categories.html %}
+				{% comment %}
+				The code below dynamically generates a sidebar nav of pages with
+				`sidebar_link: true` in the front-matter. See readme for usage.
+				{% endcomment %}
 
-        {% if tags_page %}
-        <a class="nav-link{% if page.url == '/tags' %} active{% endif %}" title="Tags" aria-label="Tags" href="{{ tags_page.url | relative_url }}">
-          {% include svg/tags.svg %} Tags
-        </a>
-        {% endif %}
-        <a class="nav-link" title="Subscribe" aria-label="Subscribe" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">{% include svg/rss.svg %} RSS</a>
+				{% include nav/pages.html %}
+				{% include nav/categories.html %}
 
-        {% if site.author.flair %}
-        <span>{{ site.author.flair }}</span>
-        {% endif %}
-      </div>
-    </div>
-  </div>
+				{% if tags_page %}
+				<a class="nav-link{% if page.url == '/tags' %} active{% endif %}" title="Tags" aria-label="Tags" href="{{ tags_page.url | relative_url }}">
+					{% include svg/tags.svg %} Tags
+				</a>
+				{% endif %}
+				<a class="nav-link" title="Subscribe" aria-label="Subscribe" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">{% include svg/rss.svg %} RSS</a>
+
+				{% if site.author.flair %}
+				<span>{{ site.author.flair }}</span>
+				{% endif %}
+			</div>
+		</div>
+	</div>
 </nav>
