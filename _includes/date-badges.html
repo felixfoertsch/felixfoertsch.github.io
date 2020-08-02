@@ -1,5 +1,5 @@
 {% if post.last_modified_at %} 
-	<span class="badge bg-secondary">{% include svg/refresh.svg %} {{ post.last_modified_at | date: "%Y-%m-%d" }}</span>
+	<span class="badge bg-dark">{% include svg/refresh.svg %} {{ post.last_modified_at | date: "%Y-%m-%d" }}</span>
 {% else %}
-	<span class="badge bg-secondary">{{ post.date | date: "%Y-%m-%d" }}</span>
+	<span class="badge bg-dark">{{ post.date | date: "%Y-%m-%d" }}</span>
 {% endif %}

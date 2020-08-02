@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            felixfoertsch.de
-tagline:          'Rocketing along. 🚀'
-version:          11
+tagline:          '🚀 Rocketing along.'
+version:          12
 description:      ''
 url:              https://felixfoertsch.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
@@ -15,9 +15,10 @@ author:
   url:            felixfoertsch.de
   flair:          ''
 
-paginate:         10
-paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+github:
+  profile: 'https://github.com/felixfoertsch'
+twitter:
+  profile: 'https://twitter.com/felixfoertsch'
 
 plugins:
   - jekyll-feed
@@ -39,7 +40,8 @@ exclude:
   - README.md
   - .gitignore
 
-permalink:        /:year/:month/:day/:title.html
+sass:
+    style: compact # possible values: nested expanded compact compressed
 
 defaults:
   - scope:
@@ -49,10 +51,10 @@ defaults:
       excerpt_separator:  <!--more-->
       layout: post
 
+permalink:        /:year/:month/:day/:title.html
+
+paginate:         10
+paginate_path:    '/page:num' # Or '/blog/page:num' if you want to move your index pages
+
 # Sidebar link settings
 sidebar_home_link:  true
-
-github:
-  profile: 'https://github.com/felixfoertsch'
-twitter:
-  profile: 'https://twitter.com/felixfoertsch'

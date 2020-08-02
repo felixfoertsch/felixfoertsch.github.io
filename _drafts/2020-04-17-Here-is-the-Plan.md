@@ -23,3 +23,6 @@ Order of operations
 Programming
 Uni
 Personal
+
+https://teachyourselfcs.com/
+https://jordanlewis.org/posts/twitch-live-coding/
