@@ -5,7 +5,7 @@ categories:
   - Summaries
 tags:
   - Deutsch
-  - Philosophie
+  - Philosophy
 
 last_modified_at:
 excerpt_separator: <!-- more -->

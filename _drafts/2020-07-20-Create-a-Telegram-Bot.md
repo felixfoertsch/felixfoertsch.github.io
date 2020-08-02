@@ -37,3 +37,6 @@ Using the official [@stickers](https://telegram.me/stickers) to create and manag
 https://telegramguides.com/create-telegram-sticker-packs/
 
 
+https://core.telegram.org/bots
+https://core.telegram.org/bots/api
+https://core.telegram.org/bots/samples
