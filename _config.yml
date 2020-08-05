@@ -50,12 +50,12 @@ sass:
     style: compact # possible values: nested expanded compact compressed
 
 defaults:
-  - scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      excerpt_separator:  <!--more-->
-      layout: post
+  scope:
+    path: "_posts"
+    type: "posts"
+  values:
+    excerpt_separator:  <!--more-->
+    layout: post
 
 permalink:        /:year/:month/:day/:title.html
 

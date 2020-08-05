@@ -1,3 +1,4 @@
+<div class="py-3">
 {% comment %}
   Check if we have a tags page active before linking to it.
 {% endcomment %}
@@ -9,6 +10,6 @@
 {% endfor %}
 
 {% for tag in include.post.tags %}
-{% if tags_page %}<a href="{{ tags_page.url | relative_url }}#{{ tag | slugify }}">{% endif %}<span class="badge rounded-pill bg-primary">{% include svg/tag.svg %} {{ tag }}</span>{% if tags_page %}</a>{% endif %}
+{% if tags_page %}<a href="{{ tags_page.url | relative_url }}#{{ tag | slugify }}">{% endif %}<span class="btn btn-sm btn-secondary">{% octicon tag height:12 class:"" %} {{ tag }}</span>{% if tags_page %}</a>{% endif %}
 {% endfor %}
-
+</div>

@@ -25,3 +25,5 @@ University is awesome. But the way it has developed in the last few years is awf
 ### Unify symbols
 
 ### Central hub for tests and exercises
+
+Lehrende wollen manchmal "nur prüfen"
