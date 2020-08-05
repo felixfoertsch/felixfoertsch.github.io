@@ -1,7 +1,7 @@
 <div class="card-subtitle mb-2 text-muted">
 	{% if include.post.last_modified_at %}
 		<span class="">{{ include.post.date | date: "%Y-%m-%d" }}</span> &bull; 
-		<span class="">{% include svg/refresh.svg %} Updated: {{ include.post.last_modified_at | date: "%Y-%m-%d" }}</span>
+		<span class="">{% octicon sync height:12 class:"" %} Updated: {{ include.post.last_modified_at | date: "%Y-%m-%d" }}</span>
 	{% else %}
 		<span class="">{{ include.post.date | date: "%Y-%m-%d" }}</span>
 	{% endif %}

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand-md d-flex">
+<nav class="navbar navbar-dark bg-dark navbar-expand-md ">
 	<div class="container-fluid">
 		{% if site.sidebar_home_link %}
 		<a class="nav-link navbar-brand {% if page.url == '/' %} active{% endif %}" href="{{ "/" | relative_url }}"><img src="/favicon.png" width="30" height="30" alt=""> </a>
@@ -21,12 +21,9 @@
 				{% include nav/categories.html %}
 
 				{% if tags_page %}
-				<a class="nav-link{% if page.url == '/tags' %} active{% endif %}" title="Tags" aria-label="Tags" href="{{ tags_page.url | relative_url }}">
-					{% include svg/tags.svg %} Tags
-				</a>
+				<a class="nav-link{% if page.url == '/tags' %} active{% endif %}" title="Tags" aria-label="Tags" href="{{ tags_page.url | relative_url }}">Tags</a>
 				{% endif %}
-				<a class="nav-link" title="Subscribe" aria-label="Subscribe" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">{% include svg/rss.svg %} RSS</a>
-
+				<a class="nav-link" title="Subscribe" aria-label="Subscribe" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">RSS</a>
 				{% if site.author.flair %}
 				<span>{{ site.author.flair }}</span>
 				{% endif %}

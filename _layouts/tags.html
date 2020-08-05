@@ -1,5 +1,37 @@
 ---
-layout: page
+layout: default
 ---
 
-{% include tags-list.html %}
+<!-- See https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
+<!-- With added pipe to handle lack of sort_natural -->
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first | downcase }}|{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+<!-- site_tags: {{ site_tags }} -->
+{% assign tag_words = site_tags | split:',' | sort %}
+<!-- tag_words: {{ tag_words }} -->
+<div class="row">
+	<div class="col-md-3">
+		<div class="btn-group-vertical">
+			{% for tag_pair in tag_words %}
+			{% assign tag = tag_pair | split:'|' | last %}
+			<a href="#{{ tag | slugify }}" class="btn btn-sm btn-secondary">{% octicon tag height:12 class:"" %} {{ tag }}: {{ site.tags[tag] | size }}</a>
+			{% endfor %}
+		</div>
+	</div>
+
+	<div class="col">
+		{% for tag_pair in tag_words %}
+		{% assign tag = tag_pair | split:'|' | last %}
+		<div id="{{ tag | slugify }}" class="posts-for-tag">
+			<h2>{{ tag }}</h2>
+			<ul>
+				{% for post in site.tags[tag] %}
+				<li>
+					<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+					{% include date-badges.html %}
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+		{% endfor %}
+	</div>
+</div>

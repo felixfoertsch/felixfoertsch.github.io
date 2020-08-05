@@ -11,7 +11,7 @@ kramdown:
 # Setup
 title:            felixfoertsch.de
 tagline:          '🚀 Rocketing along.'
-version:          14
+version:          15
 description:      ''
 url:              https://felixfoertsch.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
@@ -50,12 +50,12 @@ sass:
     style: compact # possible values: nested expanded compact compressed
 
 defaults:
-  - scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      excerpt_separator:  <!--more-->
-      layout: post
+  scope:
+    path: "_posts"
+    type: "posts"
+  values:
+    excerpt_separator:  <!--more-->
+    layout: post
 
 permalink:        /:year/:month/:day/:title.html
 
