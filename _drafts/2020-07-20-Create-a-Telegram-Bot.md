@@ -11,7 +11,7 @@ last_modified_at:
 excerpt_separator: <!-- more -->
 ---
 
-Telegram is a nice messenger. Even though it **absolutely _cannot_ be recommended** if you need security and privacy---I can't stress this enough: Telegram **is not secure**---, it offers very nice, fast and convenient features. One feature I particularly like are stickers. They basically are over sized emoji that give artists a lot of freedom to express emotion. These stickers are collected in packs that can be added to your client.
+I like [Telegram](https://telegram.org). Even though it **absolutely _cannot_ be recommended** if you need security and privacy---I can't stress this enough: Telegram **is not secure**---, it offers very nice, fast and convenient features. One feature I particularly like are stickers. They basically are over sized emoji that give artists a lot of freedom to express emotion. These stickers are collected in packs that can be added to your client.
 
 They have one problem though: Many times a sticker pack has only a few really good stickers.
 
