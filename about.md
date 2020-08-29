@@ -11,7 +11,7 @@ Since I am a big [Apple](https://apple.com) fan, I am currently learning [Swift]
 ## Contact
 
 You can reach or connect with me easily by:
-- Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com) ([PGP Key](https://keys.openpgp.org/search?q=felixfoertsch%40gmail.com)) --- or if you are daring and your Ö key works: [felix@förtsch.de](mailto:felix@förtsch.de) ([PGP Key](https://keys.openpgp.org/search?q=felix%40f%C3%B6rtsch.de))
+- Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com) ([GPG](https://keys.openpgp.org/search?q=felixfoertsch%40gmail.com)) --- or if you are daring and your Ö key works: [felix@förtsch.de](mailto:felix@förtsch.de) ([GPG](https://keys.openpgp.org/search?q=felix%40f%C3%B6rtsch.de))
 - Connecting with me on Telegram: [@felixfoertsch](http://telegram.me/felixfoertsch)
 - Following me on Twitter: [@felixfoertsch](https://twitter.com/felixfoertsch)
 - Opening an issue on one of my projects on Github: [github.com/felixfoertsch](https://github.com/felixfoertsch)

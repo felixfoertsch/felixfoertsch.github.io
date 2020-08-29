@@ -7,37 +7,46 @@ layout: default
 
 		{% for post in paginator.posts %}
 		<div class="pb-5">
-			<h2>
-				<a href="{{ post.url | relative_url }}">
-					{{ post.title }}
-				</a>
-			</h2>
 
-			{% include post-meta.html post=post %}
+			<div class="card bg-dark p-3">
+				<div class="card-body">
 
-			{% if post.excerpt %}
-			{{ post.excerpt }}
-			{% else %}
-			{{ post.content }}
-			{% endif %}
+					<h2 class="card-title">
+						<a href="{{ post.url | relative_url }}">
+							{{ post.title }}
+						</a>
+					</h2>
 
-			{% if post.excerpt %}
-			{% comment %}Excerpt may be equal to content. Check.{% endcomment %}
-			{% capture content_words %}
-			{{ post.content | number_of_words }}
-			{% endcapture %}
-			{% capture excerpt_words %}
-			{{ post.excerpt | number_of_words }}
-			{% endcapture %}
+					<div class="card-text">
+						{% include post-meta.html post=post %}
 
-			{% if content_words != excerpt_words %}
-			<a href="{{ post.url | relative_url }}" class="btn btn-sm btn-secondary">
-				Read more {% octicon chevron-right height:12 %}
-			</a>
-			{% endif %}
-			{% endif %}
+						{% if post.excerpt %}
+						{{ post.excerpt }}
+						{% else %}
+						{{ post.content }}
+						{% endif %}
+
+						{% if post.excerpt %}
+						{% comment %}Excerpt may be equal to content. Check.{% endcomment %}
+						{% capture content_words %}
+						{{ post.content | number_of_words }}
+						{% endcapture %}
+						{% capture excerpt_words %}
+						{{ post.excerpt | number_of_words }}
+						{% endcapture %}
+					</div>
+
+					{% if content_words != excerpt_words %}
+					<a href="{{ post.url | relative_url }}" class="btn btn-sm btn-secondary">
+						Read more {% octicon chevron-right height:12 %}
+					</a>
+					{% endif %}
+					{% endif %}
+				</div>
+
+			</div>
 		</div>
-		{% endfor %}
+		{% endfor %} <!-- end of paginator -->
 
 	</div>
 </div>
