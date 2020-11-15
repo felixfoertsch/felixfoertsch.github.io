@@ -4,15 +4,15 @@ title: About
 sidebar_link: true
 ---
 
-My name is Felix. I have a master's degree in Business Administration and I am currently doing a bachelor's degree in Computer Science at the [University of Leipzig](https://uni-leipzig.de). My main interest are technology---especially computers, the Internet, and everything connected to these things---and project management.
+Hi! My name is Felix. I have a master's degree in Business Administration and a bachelor's degree in Computer Science. My main interests are project management and technology---especially computers and the Internet--and everything connected to these things.
 
-Since I am a big [Apple](https://apple.com) fan, I am currently learning [Swift](https://swift.org), Apples programming language for macOS, iOS, watchOS and tvOS, to build awesome apps.
+I am currently working as a Junior Java Developer at [BI Business Intelligence](https://www.bi-web.de/) in Leipzig.
 
 ## Contact
 
 You can reach or connect with me easily by:
 
-- Writing me an email: [felixfoertsch@gmail.com](mailto:felixfoertsch@gmail.com) ([GPG](https://keys.openpgp.org/search?q=felixfoertsch%40gmail.com)) --- or if you are daring and your Ö key works: [felix@förtsch.de](mailto:felix@förtsch.de) ([GPG](https://keys.openpgp.org/search?q=felix%40f%C3%B6rtsch.de))
+- Writing me an email: su@ this domain --- or if you are daring and your Ö key works: [felix@förtsch.de](mailto:felix@förtsch.de) ([GPG](https://keys.openpgp.org/search?q=felix%40f%C3%B6rtsch.de))
 - Connecting with me on Telegram: [@felixfoertsch](http://telegram.me/felixfoertsch)
 - Following me on Twitter: [@felixfoertsch](https://twitter.com/felixfoertsch)
 - Opening an issue on one of my projects on Github: [github.com/felixfoertsch](https://github.com/felixfoertsch)
@@ -22,9 +22,12 @@ You can reach or connect with me easily by:
 
 Public commitments are the most motivating. At the moment I am chasing the following goals. If you would like to help me reach them, check in on me and poke me about them:
 
-- Finish my bachelor's degree → _Indicator_: University certificate.
+- ~~Finish my bachelor's degree → _Indicator_: University certificate.~~
+    - **Latest Update:** done
 - Become a proficient Swift developer → _Indicator_: Deploy one app to each App Store (macOS/iOS).
+    - **Latest Update:** Since I am working with Java now, I will postpone this goal.
 - Publish as much knowledge as I can on my website → _Indicator_: Publish one useful article every month.
+    - **Latest Update:** I have been really slacking with this; I assume that I will encounter new things to learn in my new job and I will try to do write-ups on the interesting topics.
 
 ## My Favorite Quotes
 
